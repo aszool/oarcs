@@ -1,0 +1,4 @@
+LICENSE
+-------
+
+OArCS is made available under a [TODO].

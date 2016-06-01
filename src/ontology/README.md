@@ -58,4 +58,9 @@ Commit and push the changes using git. This assumes you are in a terminal inside
   git push
 ```
 
+Funding
+-------
+
+This project was funded in part by NSF-ABI-1356381.  Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. 
+
 [0]: https://help.github.com/articles/generating-ssh-keys/

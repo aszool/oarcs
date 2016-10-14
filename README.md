@@ -16,7 +16,7 @@ OArCS uses [CARO][1] as its upper level ontology. Ultimately it will serve as a 
 Acknowledgements
 ----------------
 
-OArCS was built by Christian Wirkner, his lab and collaborators including Göpel Torben, Runge Jens, Keiler Jonas, Huckstorf K., Scholz Stefan, Klussmann-Fricke B-J, and Richter Stefan.
+OArCS was built by Christian Wirkner, his lab and collaborators including Torben Göpel, Jens Runge, Jonas Keiler, Bastian-Jesper Klußmann-Fricke, Katarina Huckstorf, Stephan Scholz, and Stefan Richter.
 
 István Mikó formalized taxon specific exemplars. 
 Matt Yoder provided technical support and helped describe the initial effort.
@@ -26,6 +26,7 @@ Contact
 -------
 
 Christian Wirkner is the project lead.
+christian.wirkner@web.de
 
 License
 -------

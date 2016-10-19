@@ -1,0 +1,572 @@
+<http://example.org/character_10007> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29007> .
+<http://example.org/character_10007> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10007> <http://www.w3.org/2000/01/rdf-schema#label> "Anterior aorta" .
+<http://example.org/coding_522961> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29009> .
+<http://example.org/coding_522961> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522961"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522961> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522961> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522961" .
+<http://example.org/coding_522961> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10009> .
+<http://example.org/character_10013> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29013> .
+<http://example.org/character_10013> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10013"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10013> <http://www.w3.org/2000/01/rdf-schema#label> "Upper lip artery system" .
+<http://purl.obolibrary.org/obo/CDAO_0000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CDAO_0000045> <http://www.w3.org/2000/01/rdf-schema#label> "StandardState" .
+<http://example.org/state_29000> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29000> <http://www.w3.org/2000/01/rdf-schema#label> "third ostium Ad69" .
+<http://example.org/coding_522955> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29003> .
+<http://example.org/coding_522955> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522955"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522955> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522955> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522955" .
+<http://example.org/coding_522955> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10003> .
+<http://example.org/character_10022> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29022> .
+<http://example.org/character_10022> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10022"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10022> <http://www.w3.org/2000/01/rdf-schema#label> "Third leg artery\r\n" .
+<http://example.org/coding_522964> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29012> .
+<http://example.org/coding_522964> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522964"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522964> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522964> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522964" .
+<http://example.org/coding_522964> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10012> .
+<http://purl.obolibrary.org/obo/CDAO_0000205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/CDAO_0000205> <http://www.w3.org/2000/01/rdf-schema#label> "belongs_to_character" .
+<http://example.org/character_10016> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29016> .
+<http://example.org/character_10016> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10016> <http://www.w3.org/2000/01/rdf-schema#label> "Pedipalpal artery" .
+<http://example.org/state_29003> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29003> <http://www.w3.org/2000/01/rdf-schema#label> "first cardiac artery system Ad69" .
+<http://example.org/coding_522958> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29006> .
+<http://example.org/coding_522958> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522958"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522958> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522958> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522958" .
+<http://example.org/coding_522958> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10006> .
+<http://example.org/coding_522970> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29018> .
+<http://example.org/coding_522970> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522970"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522970> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522970> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522970" .
+<http://example.org/coding_522970> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10018> .
+<http://example.org/state_29012> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29012"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29012> <http://www.w3.org/2000/01/rdf-schema#label> "optic artery Ad69" .
+<http://example.org/coding_522967> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29015> .
+<http://example.org/coding_522967> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522967"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522967> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522967> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522967" .
+<http://example.org/coding_522967> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10015> .
+<http://example.org/character_10019> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29019> .
+<http://example.org/character_10019> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10019> <http://www.w3.org/2000/01/rdf-schema#label> "Second leg artery system" .
+<http://example.org/state_29006> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29006"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29006> <http://www.w3.org/2000/01/rdf-schema#label> "anterior aorta system Ad69" .
+<http://example.org/coding_522973> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29021> .
+<http://example.org/coding_522973> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522973"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522973> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522973> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522973" .
+<http://example.org/coding_522973> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10021> .
+<http://example.org/character_10025> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29025> .
+<http://example.org/character_10025> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10025> <http://www.w3.org/2000/01/rdf-schema#label> "Supraneural artery system" .
+<http://example.org/state_29015> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29015"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29015> <http://www.w3.org/2000/01/rdf-schema#label> "pedipalpal artery system Ad69" .
+<http://example.org/state_29009> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29009"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29009> <http://www.w3.org/2000/01/rdf-schema#label> "cheliceral artery system Ad69" .
+<http://example.org/state_29021> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29021"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29021> <http://www.w3.org/2000/01/rdf-schema#label> "third leg artery system" .
+<http://example.org/coding_522976> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29024> .
+<http://example.org/coding_522976> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522976"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522976> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522976> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522976" .
+<http://example.org/coding_522976> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10024> .
+<http://example.org/state_29024> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29024> <http://www.w3.org/2000/01/rdf-schema#label> "fourth leg artery Ad69" .
+<http://example.org/state_28999> <http://purl.oclc.org/NET/mx-database/has_mx_id> "28999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_28999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_28999> <http://www.w3.org/2000/01/rdf-schema#label> "second ostium Ad69" .
+<http://example.org/state_29018> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29018"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29018> <http://www.w3.org/2000/01/rdf-schema#label> "first leg artery Ad69" .
+<http://example.org/state_29027> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29027"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29027> <http://www.w3.org/2000/01/rdf-schema#label> "Epicard Ad69" .
+<http://example.org/character_10451> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30368> .
+<http://example.org/character_10451> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10451"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10451> <http://www.w3.org/2000/01/rdf-schema#label> "Third dorsal prosomal artery system" .
+<http://example.org/character_10454> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30371> .
+<http://example.org/character_10454> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10454"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10454> <http://www.w3.org/2000/01/rdf-schema#label> "Epigastric artery" .
+<http://example.org/character_10448> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30365> .
+<http://example.org/character_10448> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10448"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10448> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10448> <http://www.w3.org/2000/01/rdf-schema#label> "First dorsal prosomal artery" .
+<http://example.org/character_10457> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30374> .
+<http://example.org/character_10457> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10457"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10457> <http://www.w3.org/2000/01/rdf-schema#label> "First lateral transganglionic artery" .
+<http://example.org/state_30364> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30364"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30364> <http://www.w3.org/2000/01/rdf-schema#label> "First dorsal prosomal artery system Ad69" .
+<http://purl.obolibrary.org/obo/CDAO_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CDAO_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "StandardStateDatum" .
+<http://example.org/state_30370> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30370"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30370> <http://www.w3.org/2000/01/rdf-schema#label> "Epigastric artery system Ad69" .
+<http://example.org/state_30367> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30367"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30367> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30367> <http://www.w3.org/2000/01/rdf-schema#label> "Second dorsal prosomal artery Ad69" .
+<http://example.org/state_30373> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30373"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30373> <http://www.w3.org/2000/01/rdf-schema#label> "Second ventral branching artery Ad69" .
+<http://example.org/coding_522947> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_28986> .
+<http://example.org/coding_522947> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522947"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522947> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522947> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522947" .
+<http://example.org/coding_522947> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_9991> .
+<http://example.org/state_30382> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30382"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30382> <http://www.w3.org/2000/01/rdf-schema#label> "Second median transganglionic artery" .
+<http://example.org/character_10461> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30378> .
+<http://example.org/character_10461> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10461"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10461> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10461> <http://www.w3.org/2000/01/rdf-schema#label> "Fifth lateral transganglionic artery" .
+<http://example.org/character_10000> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29000> .
+<http://example.org/character_10000> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10000> <http://www.w3.org/2000/01/rdf-schema#label> "Third ostium" .
+<http://example.org/state_30376> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30376"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30376> <http://www.w3.org/2000/01/rdf-schema#label> "Third lateral transganglionic artery Ad69" .
+<http://example.org/character_9996> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29027> .
+<http://example.org/character_9996> <http://purl.oclc.org/NET/mx-database/has_mx_id> "9996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_9996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_9996> <http://www.w3.org/2000/01/rdf-schema#label> "Epicard" .
+<http://example.org/coding_522951> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_28999> .
+<http://example.org/coding_522951> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522951"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522951> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522951> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522951" .
+<http://example.org/coding_522951> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_9999> .
+<http://example.org/character_10464> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30381> .
+<http://example.org/character_10464> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10464"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10464> <http://www.w3.org/2000/01/rdf-schema#label> "First median transganglionic artery system" .
+<http://example.org/character_10003> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29003> .
+<http://example.org/character_10003> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10003> <http://www.w3.org/2000/01/rdf-schema#label> "First cardiac artery system" .
+<http://purl.obolibrary.org/obo/CDAO_0000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CDAO_0000075> <http://www.w3.org/2000/01/rdf-schema#label> "StandardCharacter" .
+<http://example.org/state_30379> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30379"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30379> <http://www.w3.org/2000/01/rdf-schema#label> "Sixth lateral transganglionic artery Ad69" .
+<http://example.org/character_9999> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_28999> .
+<http://example.org/character_9999> <http://purl.oclc.org/NET/mx-database/has_mx_id> "9999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_9999> <http://www.w3.org/2000/01/rdf-schema#label> "Second ostium" .
+<http://example.org/coding_522954> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29002> .
+<http://example.org/coding_522954> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522954"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522954> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522954> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522954" .
+<http://example.org/coding_522954> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10002> .
+<http://example.org/character_10006> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29006> .
+<http://example.org/character_10006> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10006"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10006> <http://www.w3.org/2000/01/rdf-schema#label> "Anterior aorta system" .
+<http://example.org/coding_522960> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29008> .
+<http://example.org/coding_522960> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522960"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522960> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522960> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522960" .
+<http://example.org/coding_522960> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10008> .
+<http://example.org/character_10012> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29012> .
+<http://example.org/character_10012> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10012"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10012> <http://www.w3.org/2000/01/rdf-schema#label> "Optic artery" .
+<http://example.org/state_29002> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29002> <http://www.w3.org/2000/01/rdf-schema#label> "posterior aorta Ad69" .
+<http://example.org/coding_522957> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29005> .
+<http://example.org/coding_522957> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522957"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522957> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522957> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522957> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522957" .
+<http://example.org/coding_522957> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10005> .
+<http://example.org/character_10009> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29009> .
+<http://example.org/character_10009> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10009"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10009> <http://www.w3.org/2000/01/rdf-schema#label> "Cheliceral artery system" .
+<http://example.org/character_10021> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29021> .
+<http://example.org/character_10021> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10021"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10021> <http://www.w3.org/2000/01/rdf-schema#label> "Third leg artery system\r\n" .
+<http://example.org/coding_522963> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29011> .
+<http://example.org/coding_522963> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522963"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522963> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522963> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522963" .
+<http://example.org/coding_522963> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10011> .
+<http://example.org/character_10015> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29015> .
+<http://example.org/character_10015> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10015"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10015> <http://www.w3.org/2000/01/rdf-schema#label> "Pedipalpal artery system" .
+<http://example.org/coding_522972> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29020> .
+<http://example.org/coding_522972> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522972"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522972> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522972> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522972" .
+<http://example.org/coding_522972> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10020> .
+<http://example.org/character_10024> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29024> .
+<http://example.org/character_10024> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10024> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth leg artery" .
+<http://example.org/state_29011> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29011"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29011> <http://www.w3.org/2000/01/rdf-schema#label> "optic artery system Ad69" .
+<http://example.org/coding_522966> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29014> .
+<http://example.org/coding_522966> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522966"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522966> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522966> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522966" .
+<http://example.org/coding_522966> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10014> .
+<http://example.org/state_28986> <http://purl.oclc.org/NET/mx-database/has_mx_id> "28986"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_28986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_28986> <http://www.w3.org/2000/01/rdf-schema#label> "Tubular heart Ad69" .
+<http://example.org/character_10018> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29018> .
+<http://example.org/character_10018> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10018"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10018> <http://www.w3.org/2000/01/rdf-schema#label> "First leg artery" .
+<http://example.org/state_29005> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29005"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29005> <http://www.w3.org/2000/01/rdf-schema#label> "third cardiac artery system Ad69" .
+<http://example.org/coding_522975> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29023> .
+<http://example.org/coding_522975> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522975"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522975> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522975> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522975" .
+<http://example.org/coding_522975> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10023> .
+<http://purl.obolibrary.org/obo/CDAO_0000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/CDAO_0000191> <http://www.w3.org/2000/01/rdf-schema#label> "belongs_to_TU" .
+<http://example.org/state_29014> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29014"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29014> <http://www.w3.org/2000/01/rdf-schema#label> "upper lip artery Ad69" .
+<http://example.org/coding_522969> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29017> .
+<http://example.org/coding_522969> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522969"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522969> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522969> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522969> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522969" .
+<http://example.org/coding_522969> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10017> .
+<http://example.org/state_29008> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29008"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29008> <http://www.w3.org/2000/01/rdf-schema#label> "aortic arch Ad69" .
+<http://example.org/state_29020> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29020> <http://www.w3.org/2000/01/rdf-schema#label> "second leg artery Ad69" .
+<http://example.org/state_28998> <http://purl.oclc.org/NET/mx-database/has_mx_id> "28998"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_28998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_28998> <http://www.w3.org/2000/01/rdf-schema#label> "first ostium Ad69" .
+<http://example.org/state_29017> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29017"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29017> <http://www.w3.org/2000/01/rdf-schema#label> "first leg artery system Ad69" .
+<http://example.org/otu_24858> <http://purl.oclc.org/NET/mx-database/has_mx_id> "24858"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/otu_24858> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000138> .
+<http://example.org/otu_24858> <http://www.w3.org/2000/01/rdf-schema#label> "Araneus diadematus Clerck, 1757" .
+<http://example.org/state_29023> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29023> <http://www.w3.org/2000/01/rdf-schema#label> "fourth leg artery system Ad69" .
+<http://example.org/coding_522978> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29026> .
+<http://example.org/coding_522978> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522978"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522978> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522978> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522978" .
+<http://example.org/coding_522978> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10026> .
+<http://purl.oclc.org/NET/mx-database/can_have_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/state_29026> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29026> <http://www.w3.org/2000/01/rdf-schema#label> "supraneural artery Ad69" .
+<http://example.org/character_10450> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30367> .
+<http://example.org/character_10450> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10450"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10450> <http://www.w3.org/2000/01/rdf-schema#label> "Second dorsal prosomal artery" .
+<http://example.org/character_10447> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30364> .
+<http://example.org/character_10447> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10447"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10447> <http://www.w3.org/2000/01/rdf-schema#label> "First dorsal prosomal artery system" .
+<http://example.org/character_10453> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30370> .
+<http://example.org/character_10453> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10453"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10453> <http://www.w3.org/2000/01/rdf-schema#label> "Epigastric artery system" .
+<http://example.org/character_10456> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30373> .
+<http://example.org/character_10456> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10456"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10456> <http://www.w3.org/2000/01/rdf-schema#label> "Second ventral branching artery" .
+<http://example.org/state_30372> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30372"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30372> <http://www.w3.org/2000/01/rdf-schema#label> "First ventral branching artery" .
+<http://example.org/character_10459> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30376> .
+<http://example.org/character_10459> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10459"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10459> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10459> <http://www.w3.org/2000/01/rdf-schema#label> "Third lateral transganglionic artery" .
+<http://example.org/state_30366> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30366"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30366> <http://www.w3.org/2000/01/rdf-schema#label> "Second dorsal prosomal artery system Ad 69" .
+<http://example.org/state_30375> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30375"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30375> <http://www.w3.org/2000/01/rdf-schema#label> "Second lateral transganglionic artery Ad69" .
+<http://example.org/coding_522949> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_28997> .
+<http://example.org/coding_522949> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522949"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522949> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522949> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522949" .
+<http://example.org/coding_522949> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_9997> .
+<http://example.org/state_30369> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30369"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30369> <http://www.w3.org/2000/01/rdf-schema#label> "Third dorsal prosomal artery Ad69" .
+<http://example.org/state_30381> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30381"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30381> <http://www.w3.org/2000/01/rdf-schema#label> "First median transganglionic artery system" .
+<http://example.org/character_10460> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30377> .
+<http://example.org/character_10460> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10460"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10460> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10460> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth lateral transganglionic artery" .
+<http://example.org/coding_522950> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_28998> .
+<http://example.org/coding_522950> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522950"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522950> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522950> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522950" .
+<http://example.org/coding_522950> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_9998> .
+<http://example.org/character_10463> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30380> .
+<http://example.org/character_10463> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10463"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10463> <http://www.w3.org/2000/01/rdf-schema#label> "First median transganglionic artery" .
+<http://example.org/state_30378> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30378"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30378> <http://www.w3.org/2000/01/rdf-schema#label> "Fifth lateral transganglionic artery Ad69" .
+<http://example.org/character_10002> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29002> .
+<http://example.org/character_10002> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10002> <http://www.w3.org/2000/01/rdf-schema#label> "Posterior aorta" .
+<http://example.org/character_10011> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29011> .
+<http://example.org/character_10011> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10011"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10011> <http://www.w3.org/2000/01/rdf-schema#label> "Optic artery system" .
+<http://example.org/character_9998> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_28998> .
+<http://example.org/character_9998> <http://purl.oclc.org/NET/mx-database/has_mx_id> "9998"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_9998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_9998> <http://www.w3.org/2000/01/rdf-schema#label> "First ostium" .
+<http://example.org/coding_522953> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29001> .
+<http://example.org/coding_522953> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522953"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522953> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522953> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522953" .
+<http://example.org/coding_522953> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10001> .
+<http://example.org/character_10005> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29005> .
+<http://example.org/character_10005> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10005"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10005> <http://www.w3.org/2000/01/rdf-schema#label> "Third cardiac artery system" .
+<http://example.org/coding_522962> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29010> .
+<http://example.org/coding_522962> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522962"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522962> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522962> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522962" .
+<http://example.org/coding_522962> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10010> .
+<http://example.org/character_10014> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29014> .
+<http://example.org/character_10014> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10014"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10014> <http://www.w3.org/2000/01/rdf-schema#label> "Upper lip artery" .
+<http://example.org/state_29001> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29001> <http://www.w3.org/2000/01/rdf-schema#label> "posterior aorta system Ad69" .
+<http://example.org/coding_522956> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29004> .
+<http://example.org/coding_522956> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522956"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522956> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522956> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522956" .
+<http://example.org/coding_522956> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10004> .
+<http://example.org/character_10008> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29008> .
+<http://example.org/character_10008> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10008"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10008> <http://www.w3.org/2000/01/rdf-schema#label> "Aortic arch" .
+<http://example.org/character_10020> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29020> .
+<http://example.org/character_10020> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10020> <http://www.w3.org/2000/01/rdf-schema#label> "Second leg artery" .
+<http://example.org/character_10017> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29017> .
+<http://example.org/character_10017> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10017"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10017> <http://www.w3.org/2000/01/rdf-schema#label> "First leg artery system" .
+<http://example.org/state_29004> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29004"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29004> <http://www.w3.org/2000/01/rdf-schema#label> "second cardiac artery system Ad69" .
+<http://example.org/coding_522959> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29007> .
+<http://example.org/coding_522959> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522959"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522959> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522959> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522959" .
+<http://example.org/coding_522959> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10007> .
+<http://example.org/coding_522971> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29019> .
+<http://example.org/coding_522971> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522971"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522971> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522971> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522971" .
+<http://example.org/coding_522971> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10019> .
+<http://example.org/character_10023> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29023> .
+<http://example.org/character_10023> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10023> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth leg artery system" .
+<http://example.org/state_29010> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29010"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29010> <http://www.w3.org/2000/01/rdf-schema#label> "cheliceral artery Ad69" .
+<http://example.org/coding_522965> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29013> .
+<http://example.org/coding_522965> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522965"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522965> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522965> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522965" .
+<http://example.org/coding_522965> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10013> .
+<http://purl.obolibrary.org/obo/CDAO_0000184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/CDAO_0000184> <http://www.w3.org/2000/01/rdf-schema#label> "has_state" .
+<http://example.org/coding_522968> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29016> .
+<http://example.org/coding_522968> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522968"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522968> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522968> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522968" .
+<http://example.org/coding_522968> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10016> .
+<http://example.org/state_29013> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29013"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29013> <http://www.w3.org/2000/01/rdf-schema#label> "upper lip artery system Ad69" .
+<http://purl.obolibrary.org/obo/CDAO_0000138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CDAO_0000138> <http://www.w3.org/2000/01/rdf-schema#label> "TU" .
+<http://example.org/state_29007> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29007> <http://www.w3.org/2000/01/rdf-schema#label> "anterior aorta Ad69" .
+<http://example.org/coding_522974> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29022> .
+<http://example.org/coding_522974> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522974"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522974> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522974> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522974" .
+<http://example.org/coding_522974> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10022> .
+<http://example.org/character_10026> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29026> .
+<http://example.org/character_10026> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10026> <http://www.w3.org/2000/01/rdf-schema#label> "Supraneural artery" .
+<http://example.org/state_29016> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29016> <http://www.w3.org/2000/01/rdf-schema#label> "pedipalpal artery Ad69" .
+<http://example.org/state_28997> <http://purl.oclc.org/NET/mx-database/has_mx_id> "28997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_28997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_28997> <http://www.w3.org/2000/01/rdf-schema#label> "myocard Ad69" .
+<http://example.org/coding_522977> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29025> .
+<http://example.org/coding_522977> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522977"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522977> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522977> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522977> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522977" .
+<http://example.org/coding_522977> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10025> .
+<http://example.org/state_29022> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29022"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29022> <http://www.w3.org/2000/01/rdf-schema#label> "third leg artery Ad69" .
+<http://example.org/state_29019> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29019> <http://www.w3.org/2000/01/rdf-schema#label> "second leg artery system" .
+<http://example.org/state_29025> <http://purl.oclc.org/NET/mx-database/has_mx_id> "29025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_29025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_29025> <http://www.w3.org/2000/01/rdf-schema#label> "supraneural artery system Ad69" .
+<http://purl.obolibrary.org/obo/IAO_0000219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000219> <http://www.w3.org/2000/01/rdf-schema#label> "denotes" .
+<http://example.org/character_10452> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30369> .
+<http://example.org/character_10452> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10452"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10452> <http://www.w3.org/2000/01/rdf-schema#label> "Third dorsal prosomal artery" .
+<http://example.org/character_10455> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30372> .
+<http://example.org/character_10455> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10455"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10455> <http://www.w3.org/2000/01/rdf-schema#label> "First ventral branching artery" .
+<http://example.org/character_10449> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30366> .
+<http://example.org/character_10449> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10449"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10449> <http://www.w3.org/2000/01/rdf-schema#label> "Second dorsal prosomal artery system" .
+<http://example.org/state_30365> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30365"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30365> <http://www.w3.org/2000/01/rdf-schema#label> "First dorsal prosomal artery Ad69" .
+<http://example.org/state_30371> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30371"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30371> <http://www.w3.org/2000/01/rdf-schema#label> "Epigastric artery Ad69" .
+<http://purl.oclc.org/NET/mx-database/has_mx_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://example.org/character_10458> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30375> .
+<http://example.org/character_10458> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10458"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10458> <http://www.w3.org/2000/01/rdf-schema#label> "Second lateral transganglionic artery" .
+<http://example.org/state_30368> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30368"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30368> <http://www.w3.org/2000/01/rdf-schema#label> "Third dorsal prosomal artery system Ad69" .
+<http://example.org/coding_522948> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29027> .
+<http://example.org/coding_522948> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522948"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522948> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522948> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522948" .
+<http://example.org/coding_522948> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_9996> .
+<http://example.org/character_9991> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_28986> .
+<http://example.org/character_9991> <http://purl.oclc.org/NET/mx-database/has_mx_id> "9991"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_9991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_9991> <http://www.w3.org/2000/01/rdf-schema#label> "Tubular heart" .
+<http://example.org/state_30374> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30374"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30374> <http://www.w3.org/2000/01/rdf-schema#label> "First lateral transganglionic artery Ad69" .
+<http://example.org/state_30380> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30380"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30380> <http://www.w3.org/2000/01/rdf-schema#label> "First median transganglionic artery" .
+<http://example.org/character_10001> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29001> .
+<http://example.org/character_10001> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10001> <http://www.w3.org/2000/01/rdf-schema#label> "Posterior aorta system" .
+<http://example.org/state_30377> <http://purl.oclc.org/NET/mx-database/has_mx_id> "30377"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/state_30377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000045> .
+<http://example.org/state_30377> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth lateral transganglionic artery" .
+<http://example.org/character_10462> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30379> .
+<http://example.org/character_10462> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10462"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10462> <http://www.w3.org/2000/01/rdf-schema#label> "Sixth lateral transganglionic artery" .
+<http://example.org/character_9997> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_28997> .
+<http://example.org/character_9997> <http://purl.oclc.org/NET/mx-database/has_mx_id> "9997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_9997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_9997> <http://www.w3.org/2000/01/rdf-schema#label> "Myocard" .
+<http://rs.tdwg.org/dwc/terms/Taxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/character_10010> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29010> .
+<http://example.org/character_10010> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10010"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10010> <http://www.w3.org/2000/01/rdf-schema#label> "Cheliceral artery" .
+<http://example.org/character_10004> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_29004> .
+<http://example.org/character_10004> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10004"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10004> <http://www.w3.org/2000/01/rdf-schema#label> "Second cardiac artery system" .
+<http://example.org/coding_522952> <http://purl.obolibrary.org/obo/CDAO_0000184> <http://example.org/state_29000> .
+<http://example.org/coding_522952> <http://purl.oclc.org/NET/mx-database/has_mx_id> "522952"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/coding_522952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000008> .
+<http://example.org/coding_522952> <http://purl.obolibrary.org/obo/CDAO_0000191> <http://example.org/otu_24858/> .
+<http://example.org/coding_522952> <http://www.w3.org/2000/01/rdf-schema#label> "id: 522952" .
+<http://example.org/coding_522952> <http://purl.obolibrary.org/obo/CDAO_0000205> <http://example.org/character_10000> .
+<http://example.org/character_10465> <http://purl.oclc.org/NET/mx-database/can_have_state> <http://example.org/state_30382> .
+<http://example.org/character_10465> <http://purl.oclc.org/NET/mx-database/has_mx_id> "10465"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/character_10465> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CDAO_0000075> .
+<http://example.org/character_10465> <http://www.w3.org/2000/01/rdf-schema#label> "Second median transganglionic artery" .
+

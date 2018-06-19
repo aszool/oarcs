@@ -32,7 +32,7 @@ christian.wirkner@web.de
 License
 -------
 
-The ontology is provided under a [XXX] license [CONFIRM].
+The ontology is provided under a CC-BY license.
 
 [1]: http://www.bioontology.org/wiki/index.php/CARO:Main_Page
 [2]: http://uberon.org

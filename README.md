@@ -6,6 +6,8 @@ OArCS is a structural model for the description of anatomical features (morpheme
 
 OArCS contains a comprehensive collection of over 370 terms tied to over 290 concepts which are used for the description of various phenotypic aspects of circulatory organ features in arthropods. Each concept contains a genus-differentia definition which is taxon-independent and is based exclusively on structural attributes in strict avoidance of any reference to function or homology. Besides the obligatory relationships “is_a” and “part_of”, it also provides relationships specific for the circulatory system, for example “gives_rise_to/emanates from”.
 
+You can browse OArCS in various places, incuding [here][3].
+
 
 Relation to other ontologies
 ----------------------------
@@ -34,4 +36,5 @@ The ontology is provided under a [XXX] license [CONFIRM].
 
 [1]: http://www.bioontology.org/wiki/index.php/CARO:Main_Page
 [2]: http://uberon.org
+[3]: http://oarcs.speciesfilegroup.org/
 

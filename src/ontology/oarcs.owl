@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oarcs.owl#"
      xml:base="http://purl.obolibrary.org/obo/oarcs.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:figure="http://oarcs-api.speciesfilegroup.org/api/figure/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:CARO="http://purl.obolibrary.org/obo/CARO#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:OArCS="http://purl.obolibrary.org/obo/OArCS#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oarcs.owl"/>
     
 
@@ -23,29 +23,29 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#namespace-id-rule"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#remark"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-relationship-id-prefix"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000427">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antisymmetric property</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-relationship-id-prefix"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#namespace-id-rule"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -143,20 +143,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000000</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical structure which is part of the vascular system and consists of a consistent cellular boundary and a lumen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph vessel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymph vessel</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97059</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymph vessel</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000000"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymph vessel</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97059</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000000"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -167,7 +167,7 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical structure which is part of the vascular system and consists of a consistent cellular boundary and a lumen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000000"/>
@@ -179,7 +179,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial wall</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000297"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -187,10 +187,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000001</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of tissue which is part of an artery and surrounds the arterial lumen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vascular wall which is part of an artery and surrounds the arterial lumen.</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of tissue which is part of an artery and surrounds the arterial lumen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vascular wall which is part of an artery and surrounds the arterial lumen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000001"/>
@@ -239,6 +239,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000191"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
@@ -247,12 +253,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aorta mediana</oboInOwl:hasRelatedSynonym>
@@ -264,8 +264,8 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ophthalmic artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotid artery</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97854</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aorta mediana</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97807</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -282,20 +282,20 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97624</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median cephalic aorta</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The aorta which emanates anteriorly from the heart.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aorta mediana</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97807</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97624</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median cephalic aorta</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotid artery</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97854</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -349,10 +349,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000006</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vessel which is part of the arterial system.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vessel which is part of the arterial system, consisting of an arterial wall and an arterial lumen, and either emanating directly from the heart (or other pulsatile organs) or emanating from another artery thus indirectly from the heart (or other pulsatile organs).</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vessel which is part of the arterial system.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vessel which is part of the arterial system, consisting of an arterial wall and an arterial lumen, and either emanating directly from the heart (or other pulsatile organs) or emanating from another artery thus indirectly from the heart (or other pulsatile organs).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
@@ -404,16 +404,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral artery</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97049</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000009"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies the brain.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97054</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000009"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral artery</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97049</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -435,6 +435,12 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of organism substance which is part of the circulatory system and consists of hemocytes and hemolymph plasma.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -443,12 +449,6 @@
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocoelic fluid</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97621</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000010"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000010"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -492,14 +492,14 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterolateral artery</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arteria lateralis cephalica</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97807</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arteria lateralis cephalica</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97807</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterolateral artery</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -510,7 +510,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000012">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart lumen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000298"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -518,10 +518,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000012</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemolymph space which is part of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vascular lumen which is part of the heart and is surrounded by the myocard.</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemolymph space which is part of the heart.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vascular lumen which is part of the heart and is surrounded by the myocard.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000012"/>
@@ -581,16 +581,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perineural sinus</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97063</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perineural sinus</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ventral vessel system which emanates from the anterior aorta and encloses the nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97063</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perineural sinus</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -599,7 +599,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000015">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial lumen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000298"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -607,10 +607,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000015</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemolymph space which is part of an artery.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vascular lumen which is part of an artery and is surrounded by the arterial wall.</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemolymph space which is part of an artery.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vascular lumen which is part of an artery and is surrounded by the arterial wall.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97049</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000015"/>
@@ -655,12 +655,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000002"/>
             </owl:Restriction>
@@ -668,7 +662,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -677,17 +671,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000162"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000295"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000017</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the ventral vessel system and connects the heart and the ventral vessel.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">descending aorta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sternal artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sternal artery</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">descending aorta</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97624</oboInOwl:hasDbXref>
@@ -699,6 +693,12 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sternal artery</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -861,14 +861,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000096"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000025</oboInOwl:id>
@@ -930,14 +930,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000095"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000103"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000028</oboInOwl:id>
@@ -1588,13 +1588,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000063</oboInOwl:id>
@@ -1856,14 +1856,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000063"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000076</oboInOwl:id>
@@ -2006,14 +2006,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000028"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000082</oboInOwl:id>
@@ -2051,16 +2051,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior gastric artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the anterior lateral artery system and supplies the anterior gastric muscle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000083"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior gastric artery</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000083"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the anterior lateral artery system and supplies the anterior gastric muscle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000083"/>
     </owl:Axiom>
     
 
@@ -2119,13 +2119,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000103"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000086</oboInOwl:id>
@@ -2262,16 +2262,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal haemolymph network</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal haemolymph network</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000091"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemocoel within an antennal gland.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000091"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal haemolymph network</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000091"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -2340,16 +2340,16 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antennulary artery</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000094"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies a first antenna.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000094"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antennulary artery</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first antennal artery</owl:annotatedTarget>
@@ -2383,12 +2383,6 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial tree</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial tree</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000095"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical system which is part of the arterial system and resembles an artery with all its branches.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2397,6 +2391,12 @@
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial system</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97057</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000095"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial tree</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000095"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -2433,14 +2433,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000096"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000097</oboInOwl:id>
@@ -2462,14 +2462,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000096"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000098</oboInOwl:id>
@@ -2629,14 +2629,14 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000104"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocoel</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacunar structure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000104"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocoel</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacunar structure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000104"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -2701,16 +2701,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoecious organism</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-cellular organism that has male and female sexes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/96999</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000107"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/96999</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoecious organism</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000107"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-cellular organism that has male and female sexes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/96999</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000107"/>
     </owl:Axiom>
     
 
@@ -2722,14 +2722,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000105"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000108</oboInOwl:id>
@@ -2879,13 +2879,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000291"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000078"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000115</oboInOwl:id>
@@ -2960,14 +2960,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000078"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000118</oboInOwl:id>
@@ -2997,13 +2997,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000256"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000256"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000119</oboInOwl:id>
@@ -3092,12 +3092,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3105,6 +3099,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000122</oboInOwl:id>
@@ -3126,18 +3126,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000109"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
@@ -3146,6 +3134,18 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000289"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000123</oboInOwl:id>
@@ -3167,14 +3167,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000109"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3247,16 +3247,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genital artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genital artery</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000126"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies the gonads.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000126"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genital artery</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000126"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -3300,16 +3300,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maxillary artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97057</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maxillary artery</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000128"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the ventral vessel system and supplies a first or second maxilla.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000128"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97057</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maxillary artery</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000128"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -3450,13 +3450,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000257"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000257"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000134</oboInOwl:id>
@@ -3479,13 +3479,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000261"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000261"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000135</oboInOwl:id>
@@ -3531,13 +3531,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000259"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000137</oboInOwl:id>
@@ -3582,14 +3582,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000098"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000139</oboInOwl:id>
@@ -3781,6 +3781,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000103"/>
             </owl:Restriction>
@@ -3791,27 +3797,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000147</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The optic artery which is part of the anterior lateral artery system.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oculomotor artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oculomotor artery</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000147"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The optic artery which is part of the anterior lateral artery system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000147"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oculomotor artery</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000147"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -3876,12 +3876,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000179"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000162"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3890,16 +3884,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph space</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph space</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000150"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical space which is filled with hemolymph.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000150"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph space</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000150"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4028,13 +4022,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4052,7 +4040,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000156</oboInOwl:id>
@@ -4062,17 +4056,17 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal abdominal artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal abdominal aorta</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97624</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal abdominal artery</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97623</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The aorta which emanates posteriorly from the heart.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arteria dorsalis pleica</owl:annotatedTarget>
@@ -4081,10 +4075,10 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal abdominal aorta</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97624</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The aorta which emanates posteriorly from the heart.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4193,16 +4187,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prohaemocyte</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prohaemocyte</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000161"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cell which is part of the hemolymph that differentiates into different types of hemocytes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000161"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prohaemocyte</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000161"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4217,16 +4211,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulatory system</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical system consisting of a hemolymph vascular system, a hemolymph lacunar system and hemolymph.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000162"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulatory system</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000162"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical system consisting of a hemolymph vascular system, a hemolymph lacunar system and hemolymph.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000162"/>
     </owl:Axiom>
     
 
@@ -4239,12 +4233,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000221"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4252,6 +4240,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000221"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000163</oboInOwl:id>
@@ -4296,6 +4290,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
             </owl:Restriction>
@@ -4304,12 +4304,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000080"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000165</oboInOwl:id>
@@ -4379,14 +4373,14 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000167"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pericaridal diaphragm</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal diaphragm</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000167"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal diaphragm</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pericaridal diaphragm</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000167"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4529,7 +4523,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000077"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4541,13 +4541,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000221"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000173</oboInOwl:id>
@@ -4624,16 +4618,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph plasma</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph plasma</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000176"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of organism substance which is part of the hemolymph, non-cellular and surrounds the hemolymph cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97049</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000176"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph plasma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000176"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4661,14 +4655,14 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph vascular system</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular system</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemolymph vascular system</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular system</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4682,6 +4676,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
@@ -4692,22 +4692,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000178</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the posterior aorta and is its bulbous anterior portion.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulbus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulbus arteriosus</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the posterior aorta and is its bulbous anterior portion.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulbus arteriosus</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97807</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulbus</owl:annotatedTarget>
@@ -4716,12 +4712,10 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulbus arteriosus</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of the posterior aorta and is its bulbous anterior portion.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97807</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000178"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4744,10 +4738,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000179</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cavitated compound organ which consists of a hemolymph space surrounded by a wall containing muscular or collageneous elements.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cavitated compound organ which is surrounded by a wall containing muscular or collageneous elements.</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cavitated compound organ which consists of a hemolymph space surrounded by a wall containing muscular or collageneous elements.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cavitated compound organ which is surrounded by a wall containing muscular or collageneous elements.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000179"/>
@@ -4842,6 +4836,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
             </owl:Restriction>
@@ -4850,12 +4850,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000221"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000184</oboInOwl:id>
@@ -4878,13 +4872,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000185</oboInOwl:id>
@@ -4938,16 +4932,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epicardium</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epicardium</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97621</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000187"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of tissue which is part of the heart and lines the myocard externally.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97066</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000187"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epicardium</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97621</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000187"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -4968,16 +4962,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocyte type 2</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocyte type 2</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000188"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemocyte which is type 2.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000188"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocyte type 2</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000188"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -5023,12 +5017,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000002"/>
             </owl:Restriction>
@@ -5037,6 +5025,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000295"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000191</oboInOwl:id>
@@ -5136,13 +5130,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000195</oboInOwl:id>
@@ -5151,6 +5145,12 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auxiliary heart</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cor frontale</oboInOwl:hasRelatedSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The accessory pulsatile organ which is part of the anterior aorta and into which several muscles are internalized.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000195"/>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cor frontale</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97624</oboInOwl:hasDbXref>
@@ -5171,12 +5171,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000195"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The accessory pulsatile organ which is part of the anterior aorta and into which several muscles are internalized.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000195"/>
     </owl:Axiom>
     
 
@@ -5239,16 +5233,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral cardiac artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97809</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral cardiac artery</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which is part of a cardiac artery system and emanates laterally or ventrally from the heart.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97809</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral cardiac artery</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -5286,16 +5280,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocyte type 1</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocyte type 1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000199"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemocyte which is type 1.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97054</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000199"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemocyte type 1</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000199"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -5374,16 +5368,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epicardial ligament</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epicardial ligament</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ligament which connects the dorsal part of the heart with the dorsal integument.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000203"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epicardial ligament</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000203"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -5415,16 +5409,16 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antennal heart</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antennal heart</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97643</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000205"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The accessory pulsatile organ which supplies antennae.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000205"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antennal heart</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97643</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000205"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -5839,17 +5833,17 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedal artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies a leg.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97054</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97852</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedal artery</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies a leg.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97054</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
     </owl:Axiom>
     
 
@@ -5862,12 +5856,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5875,6 +5863,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000179"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000228</oboInOwl:id>
@@ -5911,21 +5905,27 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000230">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branchio-pericardial sinus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000183"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000303"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000230</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sinus which connects the hemocoel of the gills with the pericardial sinus.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">efferent gill sinus</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sinus which connects the hemocoel of the gills with the pericardial sinus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000230"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">efferent gill sinus</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000230"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sinus which connects the hemocoel of the gills with the pericardial sinus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000230"/>
     </owl:Axiom>
     
 
@@ -6336,6 +6336,7 @@ female sex.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000253">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000179"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6344,10 +6345,10 @@ female sex.</owl:annotatedTarget>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000253</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pulsatile organ which is part of the dorsal vessel and consists of myocard and epicard.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pulsatile organ which is part of the dorsal vessel and consists of myocard, epicard and heart lumen.</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pulsatile organ which is part of the dorsal vessel and consists of myocard and epicard.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pulsatile organ which is part of the dorsal vessel and consists of myocard, epicard and heart lumen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
@@ -6730,16 +6731,16 @@ female sex.</owl:annotatedTarget>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal branching artery system</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal branching artery system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000270"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery system which consists of the dorsal prosomal artery and all its branches.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97916</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000270"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal branching artery system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000270"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -6783,16 +6784,16 @@ female sex.</owl:annotatedTarget>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">third dorsal branching artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dorsal prosomal artery which is next in a posterior direction to the second dorsal prosomal artery.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97916</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000272"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">third dorsal branching artery</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000272"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dorsal prosomal artery which is next in a posterior direction to the second dorsal prosomal artery.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97916</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000272"/>
     </owl:Axiom>
     
 
@@ -6843,16 +6844,16 @@ female sex.</owl:annotatedTarget>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first dorsal branching artery</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dorsal prosomal artery which is the anteriormost one.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97916</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000274"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first dorsal branching artery</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000274"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dorsal prosomal artery which is the anteriormost one.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97916</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000274"/>
     </owl:Axiom>
     
 
@@ -7197,13 +7198,13 @@ female sex.</owl:annotatedTarget>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000271"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000102"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000271"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000288</oboInOwl:id>
@@ -7274,16 +7275,16 @@ female sex.</owl:annotatedTarget>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epigastric artery system</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epigastric artery system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000291"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery system which consists of the peribuccal artery and all its branches.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000291"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epigastric artery system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97052</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000291"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     
 
@@ -7358,14 +7359,14 @@ female sex.</owl:annotatedTarget>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000216"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000295</oboInOwl:id>
@@ -7393,6 +7394,218 @@ female sex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000296"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000106"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000297</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of tissue which is part of a vessel and surrounds the vascular lumen.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of tissue which is part of a vessel and surrounds the vascular lumen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000297"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000298">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular lumen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000298</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemolymph space which is part of a vessel and is surrounded by the vascular wall.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hemolymph space which is part of a vessel and is surrounded by the vascular wall.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000298"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000299">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trough-like lacuna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000194"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000299</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna which is situated under the midgut gland and bears a trough-like shape.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna which is situated under the midgut gland and bears a trough-like shape.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000299"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000300">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perineural lacuna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000194"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000300</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna which surrounds the central nervous system.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna which surrounds the central nervous system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000300"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventrolateral lacuna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000194"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000301</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna which is situated ventrolaterally.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna which is situated ventrolaterally.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000301"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000302">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">afferent gill lacuna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000194"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OArCS#_gives_rise"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000303"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000302</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna inside the gills which emanates from the lacunae inside trunk or legs.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna inside the gills which emanates from the lacunae inside trunk or legs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000302"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000303">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">efferent gill lacuna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000194"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OArCS#_gives_rise"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000302"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000303</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna inside the gills which gives rise to the branchio-pericardial sinus.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacuna inside the gills which gives rise to the branchio-pericardial sinus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000303"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000304">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branchiostegal-pericardial lacuna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000075"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000304</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The branchiostegal lacuna which opens into the pericardial sinus.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The branchiostegal lacuna which opens into the pericardial sinus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000304"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000305">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branchiostegal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000006"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000305</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies the branchiostegite.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The artery which supplies the branchiostegite.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000305"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OARCS_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000306">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rostral arch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OARCS:0000306</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anastomosis which connects the left and right anterior lateral artery system in the rostral region.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anastomosis which connects the left and right anterior lateral artery system in the rostral region.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000306"/>
     </owl:Axiom>
     
 
@@ -11947,8 +12160,8 @@ female sex.</owl:annotatedTarget>
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/oarcs.owl">
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-10-21</owl:versionInfo>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oarcs/2016-10-21/oarcs.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-04-18</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hao/2019-04-18/hao.owl"/>
     </rdf:Description>
 </rdf:RDF>
 

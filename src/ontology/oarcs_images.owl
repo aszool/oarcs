@@ -1,0 +1,3021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:ns3="http://www.w3.org/2000/01/rdf-schema#" xmlns:ns0="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns2="http://www.w3.org/2002/07/owl#" xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47163.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46368.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45622.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59091.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000140"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41687.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46293.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46408.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57609.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45634.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47691.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000131"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46410.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58253.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000185"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46298.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000195"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48303.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000030"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47688.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000101"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48636.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000015"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41714.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000161"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41273.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000171"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46433.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000097"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45649.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41720.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000152"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48650.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000105"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59093.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41695.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000149"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45646.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45655.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45691.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41690.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41265.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000186"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46588.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000090"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48653.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000066"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48254.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41682.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48253.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46366.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45682.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41269.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000169"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46377.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62158.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45692.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48249.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45660.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58262.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57608.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48647.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46596.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45654.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57620.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000053"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48306.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000055"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47166.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000124"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46583.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41681.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62151.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46594.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41752.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000195"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41270.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000002"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58249.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47683.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000101"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41274.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000008"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46370.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46380.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47167.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000123"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46593.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48652.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000230"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59095.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000053"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46391.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48670.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000105"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47680.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48658.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000060"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_44716.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000206"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41728.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000013"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46296.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000086"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46376.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59081.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46375.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48243.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45686.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48304.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000028"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46406.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47164.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000123"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48642.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48247.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48648.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000074"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48639.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000073"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57618.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000052"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45653.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46405.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46585.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58251.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48651.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000014"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45641.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59084.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59088.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000053"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41741.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000164"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41268.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000153"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45630.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62156.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000009"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57621.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48667.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000001"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58236.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41701.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41694.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46436.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000124"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45657.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000117"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47681.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000132"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48269.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41712.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48674.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000065"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58263.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48297.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000053"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41726.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000012"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57616.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000088"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47684.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000130"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41277.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000196"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48307.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000027"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62154.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000080"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45693.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46597.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000012"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46378.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41296.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000160"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41267.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41713.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000173"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46394.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_40102.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000008"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41300.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000158"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46365.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46384.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46584.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48245.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48250.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41685.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000007"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48262.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45629.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45684.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46371.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45640.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000148"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48258.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000112"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46591.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000099"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46397.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41688.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000178"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48302.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000030"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46412.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41291.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48300.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000056"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45637.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46598.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48662.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000059"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48643.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000185"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47165.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000109"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48246.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46403.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45638.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41272.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000172"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59092.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000140"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46389.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48267.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41721.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000168"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41724.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000012"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47693.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000100"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57612.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000090"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41699.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000166"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62163.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58257.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000167"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62165.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000230"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45695.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45623.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41299.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000157"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47295.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41773.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000173"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48645.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000012"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46400.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41691.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000197"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45632.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000200"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41686.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000205"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48264.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48671.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000074"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62157.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000189"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48635.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000105"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46589.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46392.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41684.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45659.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47170.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000123"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46364.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41715.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000163"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58248.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46409.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47687.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000132"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48251.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41266.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000205"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41301.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000175"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45690.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46373.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46399.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48256.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000112"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57614.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000126"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62155.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46434.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000008"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47695.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000132"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48228.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000079"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41727.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000012"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48665.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000001"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48660.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000061"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46587.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57619.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000052"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46387.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48252.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48663.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000059"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48265.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000115"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41718.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000200"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47690.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000130"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48248.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48646.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000187"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59086.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46299.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000092"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62159.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000206"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47689.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000100"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45687.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41722.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000180"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41743.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000195"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62150.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47682.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000100"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46390.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45651.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45652.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48654.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000060"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48308.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000026"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47692.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000101"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58250.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62162.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47169.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46595.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46404.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57610.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41742.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48655.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000060"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48656.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000060"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59090.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000132"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46367.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45639.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48260.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59085.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48640.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59083.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45685.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48673.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000065"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45658.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46386.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46327.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000094"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48301.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_58252.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45696.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48263.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46372.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46407.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46385.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57613.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000082"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48668.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000169"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48657.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000061"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47686.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57611.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_43026.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47685.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000131"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46586.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48259.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41733.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46435.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000008"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48244.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45688.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48641.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000200"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45647.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47294.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000123"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48638.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000066"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57622.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62161.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000202"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48255.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57617.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45631.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46396.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45683.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48229.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000206"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41717.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000203"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46393.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48664.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000203"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46381.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46300.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_47168.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41692.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000178"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59089.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000052"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48666.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000001"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62164.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48669.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000015"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57623.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59087.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000140"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41297.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41271.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000151"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48305.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000054"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62152.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000080"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46402.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48268.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48661.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000059"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41730.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000009"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_49290.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000159"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41700.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000155"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48266.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000115"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48703.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000062"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48649.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000105"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48672.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000073"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46401.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48257.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000112"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45628.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48644.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48298.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000052"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_62153.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_57615.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000087"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41302.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000153"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45636.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_45694.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_41698.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_59082.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46383.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_48261.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns0:Image rdf:about="http://oarcs-api.speciesfilegroup.org/api/figure/fig_46398.svg">
+    <ns1:type>
+      <ns2:Class>
+        <ns1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+        <ns2:onProperty rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <ns2:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+      </ns2:Class>
+    </ns1:type>
+  </ns0:Image>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000163"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000166"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000079"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000160"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000028"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000168"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000014"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000151"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000175"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000171"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000155"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000055"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000088"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000086"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000157"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000186"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000092"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000026"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000149"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000159"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000094"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000082"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000196"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000007"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000109"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000099"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000180"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000126"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000161"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000097"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000148"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000158"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000002"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000187"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000167"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000056"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000164"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000087"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000202"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000189"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000013"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000062"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000054"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000027"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000117"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000152"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000172"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000169"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000015"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000074"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000178"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000124"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000131"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000185"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000197"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000009"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000065"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000080"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000061"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000230"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000205"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000130"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000030"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000203"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000090"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000173"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000153"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000073"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000066"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000115"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000112"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000140"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000200"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000100"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000059"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000001"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000101"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000195"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000206"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000008"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000105"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000132"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000060"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000052"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000053"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000123"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000018"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000012"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000113"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000110"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000108"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000156"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000011"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000118"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000114"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000192"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000193"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000005"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000253"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000017"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000228"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000134"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000227"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000133"/>
+  <ns2:Class rdf:about="http://purl.obolibrary.org/obo/OARCS_0000004"/>
+  <ns2:Class rdf:about="http://xmlns.com/foaf/0.1/Image">
+    <ns3:label>Image</ns3:label>
+  </ns2:Class>
+  <ns2:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depicts">
+    <ns3:label>depicts</ns3:label>
+  </ns2:ObjectProperty>
+</rdf:RDF>

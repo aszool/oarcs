@@ -1,0 +1,2277 @@
+format-version: 1.2
+ontology: oarcs
+date: 18:04:2019 14:25
+auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
+default-namespace: OARCS
+namespace-id-rule: * OARCS:$sequence(7,0,9999999)$
+default-relationship-id-prefix: OBO_REL
+remark: 
+
+[Term]
+id: OARCS:0000000
+name: vessel
+def: "The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "blood vessel" [http://oarcs-api.speciesfilegroup.org/api/ref/97059]
+synonym: "haemolymph vessel" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "hemolymph vessel" [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000225 ! anatomical structure
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+
+[Term]
+id: OARCS:0000001
+name: arterial wall
+def: "The vascular wall which is part of an artery and surrounds the arterial lumen." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000297 ! vascular wall
+relationship: BFO:0000050 OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000002
+name: dorsal vessel
+def: "The vessel which runs longitudinally in the dorsal midline of the body and may consist of anterior aorta, heart and posterior aorta." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000000 ! vessel
+
+[Term]
+id: OARCS:0000003
+name: anastomosis
+def: "The artery which connects different artery systems." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000004
+name: anterior aorta
+def: "The aorta which emanates anteriorly from the heart." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "Aorta mediana" [http://oarcs-api.speciesfilegroup.org/api/ref/97807]
+synonym: "carotid artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97854]
+synonym: "cephalic aorta" [http://oarcs-api.speciesfilegroup.org/api/ref/97814]
+synonym: "median cephalic aorta" [http://oarcs-api.speciesfilegroup.org/api/ref/97624]
+synonym: "ophthalmic artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000191 ! aorta
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000002 ! dorsal vessel
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000005
+name: ventral vessel
+def: "The artery which is part of the ventral vessel system, runs medially in the ventral portion of the body and is connected to the dorsal vessel via one or more arteries." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+
+[Term]
+id: OARCS:0000006
+name: artery
+def: "The vessel which is part of the arterial system, consisting of an arterial wall and an arterial lumen, and either emanating directly from the heart (or other pulsatile organs) or emanating from another artery thus indirectly from the heart (or other pulsatile organs)." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000000 ! vessel
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000007
+name: globular heart
+def: "The heart which possesses a myocard with some bundles of cardiomyocytes also passing through the heart lumen." [http://oarcs-api.speciesfilegroup.org/api/ref/97046]
+is_a: OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000008
+name: tubular heart
+def: "The heart which possesses a myocard forming a hollow cylinder." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000009
+name: brain artery
+def: "The artery which supplies the brain." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "cerebral artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000010
+name: hemolymph
+def: "The portion of organism substance which is part of the circulatory system and consists of hemocytes and hemolymph plasma." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "haemocoelic fluid" [http://oarcs-api.speciesfilegroup.org/api/ref/97621]
+synonym: "haemolymph" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000222 ! portion of organism substance
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000011
+name: anterior lateral artery
+def: "The first cardiac artery which is part of the anterior lateral artery system and emanates anteriorly from the heart next to the anterior aorta." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "antennary artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97808, http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+synonym: "anterolateral artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "arteria lateralis cephalica" [http://oarcs-api.speciesfilegroup.org/api/ref/97807]
+is_a: OARCS:0000145 ! first cardiac artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000012
+name: heart lumen
+def: "The vascular lumen which is part of the heart and is surrounded by the myocard." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000298 ! vascular lumen
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000013
+name: cardiomyocyte
+def: "The myocyte which is part of the myocardium." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "cardiac muscle cell (sensu Arthropoda)" [http://oarcs-api.speciesfilegroup.org/api/ref/97815]
+is_a: OARCS:0000051 ! myocyte
+relationship: BFO:0000050 OARCS:0000018 ! myocard
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000014
+name: perineural vascular sheath
+def: "The ventral vessel system which emanates from the anterior aorta and encloses the nervous system." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "perineural sinus" [http://oarcs-api.speciesfilegroup.org/api/ref/97063]
+is_a: OARCS:0000221 ! ventral vessel system
+relationship: RO:0002377 OARCS:0000004 ! anterior aorta
+
+[Term]
+id: OARCS:0000015
+name: arterial lumen
+def: "The vascular lumen which is part of an artery and is surrounded by the arterial wall." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000298 ! vascular lumen
+relationship: BFO:0000050 OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000016
+name: hemocyte
+def: "The cell which is part of the hemolymph in which it is suspended." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "haemocyte" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000214 ! cell
+relationship: BFO:0000050 OARCS:0000010 ! hemolymph
+
+[Term]
+id: OARCS:0000017
+name: descending artery
+def: "The artery which is part of the ventral vessel system and connects the heart and the ventral vessel." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "descending aorta" [http://oarcs-api.speciesfilegroup.org/api/ref/97624]
+synonym: "sternal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000197 ! cardiac artery
+relationship: RO:0002377 OARCS:0000002 ! dorsal vessel
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000018
+name: myocard
+def: "The portion of tissue which is part of the heart and built up of cardiomyocytes." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "myocardium" [http://oarcs-api.speciesfilegroup.org/api/ref/97621, http://oarcs-api.speciesfilegroup.org/api/ref/97057]
+is_a: OARCS:0000106 ! portion of tissue
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000019
+name: neuron projection bundle subsegment
+def: "A subdivision of a neuron projection along its long axis that is sufficiently short that it is not fiber-shaped." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0001501
+is_a: OARCS:0000022 ! multi-cell-component structure
+relationship: BFO:0000050 OARCS:0000021 ! neuron projection bundle
+
+[Term]
+id: OARCS:0000020
+name: neuron projection bundle segment
+def: "A fiber-shaped subdivision of a neuron projection along its long axis." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0001501
+is_a: OARCS:0000022 ! multi-cell-component structure
+relationship: BFO:0000050 OARCS:0000021 ! neuron projection bundle
+
+[Term]
+id: OARCS:0000021
+name: neuron projection bundle
+def: "A fasciculated bundle of neuron projections (GO:0043005), largely or completely lacking synapses." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0001001
+is_a: OARCS:0000022 ! multi-cell-component structure
+
+[Term]
+id: OARCS:0000022
+name: multi-cell-component structure
+def: "A structure consisting of multiple cell components but which is not itself a cell and does not have (complete) cells as a part." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0001000
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000023
+name: epithelial cell
+def: "Cell which has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000077
+is_a: OARCS:0000214 ! cell
+
+[Term]
+id: OARCS:0000024
+name: solid compound organ
+def: "Compound organ that does not contain macroscopic anatomical spaces." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000074
+is_a: OARCS:0000210 ! compound organ
+
+[Term]
+id: OARCS:0000025
+name: first cardiac artery system
+def: "The cardiac artery system which consists of the first cardiac artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000096 ! cardiac artery system
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+
+[Term]
+id: OARCS:0000026
+name: esophageal artery system
+def: "The artery system which consists of the esophageal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000027
+name: fringe artery system
+def: "The artery system which consists of the fringe artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000028
+name: gastric artery system
+def: "The artery system which consists of the gastric artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: RO:0002377 OARCS:0000011 ! anterior lateral artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000029
+name: lateral brain artery system
+def: "The artery system which consists of the lateral brain artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000030
+name: optic artery system
+def: "The artery system which consists of the optic artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000031
+name: pereiopodal artery system
+def: "The artery system which consists of the pereiopodal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000032
+name: septum
+def: "The portion of tissue which borders a sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000106 ! portion of tissue
+
+[Term]
+id: OARCS:0000033
+name: maxilliped arch
+def: "The artery which connects the heart and the ventral vessel and is situated in the first trunk segment." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000197 ! cardiac artery
+
+[Term]
+id: OARCS:0000034
+name: mandibular arch
+def: "The artery which is part of the anterior aorta system and which forms a loop with its contralateral counterpart and is situated in the mandibular segment." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000035
+name: fifth leg artery
+def: "The artery which supplies the fifth leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000227 ! leg artery
+
+[Term]
+id: OARCS:0000036
+name: pleopodal artery
+def: "The leg artery which supplies a pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000227 ! leg artery
+
+[Term]
+id: OARCS:0000037
+name: first pleopodal artery
+def: "The pleopodal artery which supplies the first pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000038
+name: second pleopodal artery
+def: "The pleopodal artery which supplies the second pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000039
+name: third pleopodal artery
+def: "The pleopodal artery which supplies the third pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000040
+name: fourth pleopodal artery
+def: "The pleopodal artery which supplies the fourth pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000041
+name: fifth pleopodal artery
+def: "The pleopodal artery which supplies the fifth pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000042
+name: sixth pleopodal artery
+def: "The pleopodal artery which supplies the sixth pleopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000043
+name: first pereiopodal artery
+def: "The pereiopodal artery which supplies the first pereiopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000152 ! pereiopodal artery
+
+[Term]
+id: OARCS:0000044
+name: second pereiopodal artery
+def: "The pereiopodal artery which supplies the second pereiopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000152 ! pereiopodal artery
+
+[Term]
+id: OARCS:0000045
+name: third pereiopodal artery
+def: "The pereiopodal artery which supplies the third pereiopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000152 ! pereiopodal artery
+
+[Term]
+id: OARCS:0000046
+name: fourth pereiopodal artery
+def: "The pereiopodal artery which supplies the fourth pereiopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000152 ! pereiopodal artery
+
+[Term]
+id: OARCS:0000047
+name: fifth pereiopodal artery
+def: "The pereiopodal artery which supplies the fifth pereiopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000152 ! pereiopodal artery
+
+[Term]
+id: OARCS:0000048
+name: gonopodal artery
+def: "The pleopodal artery which supplies a gonopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000036 ! pleopodal artery
+
+[Term]
+id: OARCS:0000049
+name: first gonopodal artery
+def: "The gonopodal artery which supplies the first gonopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000048 ! gonopodal artery
+
+[Term]
+id: OARCS:0000050
+name: second gonopodal artery
+def: "The gonopodal artery which supplies the second gonopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000048 ! gonopodal artery
+
+[Term]
+id: OARCS:0000051
+name: myocyte
+def: "A mature contractile cell, commonly known as a myocyte. This cell has as part of its cytoplasm myofibrils organized in various patterns." [http://oarcs-api.speciesfilegroup.org/api/ref/97815]
+synonym: "muscle cell" [http://oarcs-api.speciesfilegroup.org/api/ref/97815]
+is_a: OARCS:0000214 ! cell
+
+[Term]
+id: OARCS:0000052
+name: right pleonal artery
+def: "The pleonal artery which emanates posterolaterally from the posterior aorta on the right side." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000132 ! pleonal artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000053
+name: left pleonal artery
+def: "The pleonal artery which emanates posterolaterally from the posterior aorta on the left side." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000132 ! pleonal artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000054
+name: accessory optic artery system
+def: "The artery system which consists of the accessory optic artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000055
+name: antennal artery system
+def: "The artery system which consists of the antennal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000056
+name: epidermal artery system
+def: "The artery system which consists of the epidermal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000057
+name: podo-pericardial sinus septum
+def: "The septum which borders the podo-pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000032 ! septum
+
+[Term]
+id: OARCS:0000058
+name: aortic diverticles
+def: "The accessory pulsatile organ which is part of an anterior aorta system, consisting of two blind ending, muscular sacs, connecting to the anterior aorta via a common branch." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000059
+name: myoarterial formation c
+def: "The myoarterial formation which is part of the anterior aorta and into which dilators of the posterior part of the stomach chamber are internalized." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000195 ! myoarterial formation
+
+[Term]
+id: OARCS:0000060
+name: myoarterial formation b
+def: "The myoarterial formation which is part of the anterior aorta and into which the musculi occuli basales posteriores (sensu Baumann 1917) are internalized." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000195 ! myoarterial formation
+
+[Term]
+id: OARCS:0000061
+name: myoarterial formation a
+def: "The myoarterial formation which is part of the anterior aorta and into which the esophageal dilator muscles m103 and m104 (sensu Scheloske 1976) are internalized." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "frontal heart" [http://oarcs-api.speciesfilegroup.org/api/ref/97813]
+is_a: OARCS:0000195 ! myoarterial formation
+
+[Term]
+id: OARCS:0000062
+name: accompanying artery system
+def: "The first cardiac artery system which consists of the accompanying artery and its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000025 ! first cardiac artery system
+
+[Term]
+id: OARCS:0000063
+name: vascular ring
+def: "The artery which is part of the perineural vascular sheath, emanates from the aortic arches and surrounds the prosomal ganglion." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000014 ! perineural vascular sheath
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000064
+name: swimming leg artery
+def: "The leg artery which supplies a swimming leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000227 ! leg artery
+relationship: RO:0002377 OARCS:0000071 ! neural artery
+
+[Term]
+id: OARCS:0000065
+name: accompanying artery
+def: "The first cardiac artery which accompanies the anterior aorta into the cephalothoracic region." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000145 ! first cardiac artery
+relationship: BFO:0000050 OARCS:0000062 ! accompanying artery system
+
+[Term]
+id: OARCS:0000066
+name: prosomal lacuna
+def: "The lacuna which lies in the prosoma." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+
+[Term]
+id: OARCS:0000067
+name: prosomal marginal artery system
+def: "The artery system which consists of the prosomal marginal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000068
+name: operculo-pericardial sinus
+def: "The sinus which connects the hemocoel of the operculum with the pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000183 ! sinus
+
+[Term]
+id: OARCS:0000069
+name: opercular artery
+def: "The artery which supplies the operculum." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000071 ! neural artery
+
+[Term]
+id: OARCS:0000070
+name: opisthosomal marginal artery system
+def: "The artery system which consists of the opisthosomal marginal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000071
+name: neural artery
+def: "The artery which is part of the perineural vascular sheath and surrounds the ventral nerve cord." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000014 ! perineural vascular sheath
+
+[Term]
+id: OARCS:0000072
+name: median eye artery
+def: "The optic artery which supplies the median eye." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000193 ! optic artery
+
+[Term]
+id: OARCS:0000073
+name: longitudinal lacuna
+def: "The lacuna which runs longitudinally from prosoma to opisthosoma." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+
+[Term]
+id: OARCS:0000074
+name: frontal artery
+def: "The artery which is part of the anterior aorta system and supplies the frontal part of the body." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000075
+name: branchiostegal lacuna
+def: "The lacuna which is part of a branchiostegal lacunar network." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000194 ! lacuna
+relationship: BFO:0000050 OARCS:0000099 ! branchiostegal lacunar network
+
+[Term]
+id: OARCS:0000076
+name: chilarial artery
+def: "The leg artery which supplies the chilaria." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000227 ! leg artery
+relationship: RO:0002377 OARCS:0000063 ! vascular ring
+relationship: BFO:0000050 OARCS:0000014 ! perineural vascular sheath
+
+[Term]
+id: OARCS:0000077
+name: collateral artery system
+def: "The artery system which consists of the collateral artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000078
+name: cheliceral artery system
+def: "The artery system which consists of the cheliceral artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000079
+name: aortic valve
+def: "The arterial valve which separates the lumen of the heart from the lumen of an aorta." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000206 ! arterial valve
+relationship: BFO:0000050 OARCS:0000191 ! aorta
+
+[Term]
+id: OARCS:0000080
+name: posterior aorta system
+def: "The artery system which consists of the posterior aorta and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000095 ! artery system
+relationship: RO:0002377 OARCS:0000008 ! tubular heart
+relationship: RO:0002377 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000081
+name: epistomal artery
+def: "The artery which is part of the anterior lateral artery system and supplies the epistome." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000082
+name: gastric artery
+def: "The artery which is part of the anterior lateral artery system and supplies the stomach." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "ramus internus" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000011 ! anterior lateral artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+relationship: BFO:0000050 OARCS:0000028 ! gastric artery system
+
+[Term]
+id: OARCS:0000083
+name: anterior gastric muscle artery
+def: "The artery which is part of the anterior lateral artery system and supplies the anterior gastric muscle." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "anterior gastric artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000084
+name: posterior gastric muscle artery
+def: "The artery which is part of the anterior lateral artery system and supplies the posterior stomach muscle." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000085
+name: accessory brain artery
+def: "The brain artery which is part of the anterior lateral artery system." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000009 ! brain artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000086
+name: antennal artery
+def: "The artery which is part of the anterior lateral artery system and supplies a second antenna." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "second antennal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97630]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+relationship: BFO:0000050 OARCS:0000055 ! antennal artery system
+
+[Term]
+id: OARCS:0000087
+name: rostral artery
+def: "The artery which is part of the anterior lateral artery system and supplies the rostrum." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000088
+name: pyloric artery
+def: "The artery which supplies the pylorus." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000089
+name: antennal gland artery
+def: "The artery which is part of the anterior lateral artery system and supplies the antennal gland." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "renal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Term]
+id: OARCS:0000090
+name: fringe artery
+def: "The artery which is part of the anterior lateral artery system, supplies a mandible adductor muscle and runs along the lateral margin of the carapace." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+relationship: BFO:0000050 OARCS:0000027 ! fringe artery system
+
+[Term]
+id: OARCS:0000091
+name: renal hemolymph network
+def: "The hemocoel within an antennal gland." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "renal haemolymph network" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000104 ! hemocoel
+
+[Term]
+id: OARCS:0000092
+name: lateral brain artery
+def: "The brain artery which is part of the anterior aorta system  and supplies the lateral portion of the brain." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000009 ! brain artery
+relationship: BFO:0000050 OARCS:0000029 ! lateral brain artery system
+
+[Term]
+id: OARCS:0000093
+name: third ostium
+def: "The ostium which is next in a posterior direction to the second ostium." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000228 ! ostium
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000094
+name: antennular artery
+def: "The artery which supplies a first antenna." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "antennal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97809]
+synonym: "antennulary artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+synonym: "first antennal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97630]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000095
+name: artery system
+def: "The anatomical system which is part of the arterial system and resembles an artery with all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "arterial system" [http://oarcs-api.speciesfilegroup.org/api/ref/97057]
+synonym: "arterial tree" [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000216 ! anatomical system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+
+[Term]
+id: OARCS:0000096
+name: cardiac artery system
+def: "The artery system which consists of a cardiac artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000095 ! artery system
+relationship: RO:0002377 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000097
+name: second cardiac artery system
+def: "The cardiac artery system which consists of the second cardiac artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000096 ! cardiac artery system
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+
+[Term]
+id: OARCS:0000098
+name: third cardiac artery system
+def: "The cardiac artery system which consists of the third cardiac artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000096 ! cardiac artery system
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+
+[Term]
+id: OARCS:0000099
+name: branchiostegal lacunar network
+def: "The hemocoel which which forms a network between the epidermal layers of the branchiostegites." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "branchiostegal lining" [http://oarcs-api.speciesfilegroup.org/api/ref/97057]
+is_a: OARCS:0000104 ! hemocoel
+
+[Term]
+id: OARCS:0000100
+name: dorsal muscular artery
+def: "The artery which is part of the posterior aorta system and runs above the ventral pleonal muscle." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000101
+name: ventral muscular artery
+def: "The artery which is part of the posterior aorta system and emanates from the right pleonal artery and supplies the ventral pleonal muscle." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000102
+name: anterior aorta system
+def: "The artery system which consists of the anterior aorta and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000095 ! artery system
+relationship: RO:0002377 OARCS:0000008 ! tubular heart
+relationship: RO:0002377 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000103
+name: anterior lateral artery system
+def: "The cardiac artery system which consists of the anterior lateral artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000096 ! cardiac artery system
+relationship: RO:0002377 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000104
+name: hemocoel
+def: "The hemolymph space which is part of the hemolymph lacunar system and channels hemolyph." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "haemocoel" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "lacunar structure" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000150 ! hemolymph space
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000105
+name: aortic arch
+def: "The artery which is part of the anterior aorta system, emanates from the anterior aorta and bends ventrally in direction of the prosomal ganglion." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000004 ! anterior aorta
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000106
+name: portion of tissue
+def: "Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000043
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000107
+name: gonochoristic organism
+def: "Multi-cellular organism that has male and female sexes." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+synonym: "monoecious organism" [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000048
+is_a: OARCS:0000215 ! multi-cellular organism
+
+[Term]
+id: OARCS:0000108
+name: connecting artery
+def: "The artery which connects the two aortic arches dorsally to the nervous system." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000105 ! aortic arch
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000109
+name: transganglionic artery
+def: "The brain artery which is part of the anterior aorta system and runs between two neuromeres of the subesophageal ganglion." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000009 ! brain artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000110
+name: coxinternal artery
+def: "The artery which is part of the anterior aorta system and supplies the horizontally arranged musculature between the coxae of the pedipalps." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000111
+name: coxal artery
+def: "The artery which supplies a coxa." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000112
+name: coxapophysal artery
+def: "The coxal artery which supplies a coxapophysis." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000111 ! coxal artery
+
+[Term]
+id: OARCS:0000113
+name: pedipalpocoxal artery
+def: "The coxal artery which supplies the coxa of a pedipalp." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "peribuccal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97635]
+is_a: OARCS:0000111 ! coxal artery
+
+[Term]
+id: OARCS:0000114
+name: tegumental artery
+def: "The artery which is part of the cheliceral artery system and supplies the dorsal musculature and the dorsal tegument." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+
+[Term]
+id: OARCS:0000115
+name: peribuccal artery
+def: "The artery which is part of the anterior aorta system and supplies the dilation musculature of a suction stomach." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000291 ! peribuccal artery system
+
+[Term]
+id: OARCS:0000116
+name: protocerebral artery
+def: "The brain artery which is part of the anterior aorta system and supplies the protocerebrum." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000009 ! brain artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000117
+name: esophageal artery
+def: "The artery which supplies the esophagus." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "oesophageal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000026 ! esophageal artery system
+
+[Term]
+id: OARCS:0000118
+name: supracerebral artery
+def: "The artery which is part of cheliceral artery system, extends into the posterodorsal region of the prosoma and supplies the prosomal musculature and digestive glands." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "supracerebral artery system" [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000133 ! cheliceral artery
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+
+[Term]
+id: OARCS:0000119
+name: upper lip artery
+def: "The artery which is part of the anterior aorta system and supplies the upper lip (labrum)." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000256 ! upper lip artery system
+
+[Term]
+id: OARCS:0000120
+name: lower lip artery
+def: "The artery which is part of the anterior aorta system and supplies the lower lip (labium)." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000121
+name: dorsal prosomal artery
+def: "The artery which is part of the anterior aorta system and supplies the dorsal region of the prosoma." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+synonym: "dorsal branching artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000270 ! dorsal prosomal artery system
+
+[Term]
+id: OARCS:0000122
+name: ventral branching artery
+def: "The brain artery which is part of the cheliceral artery system and runs ventrally into the supraesophageal ganglion." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000006 ! artery
+is_a: OARCS:0000009 ! brain artery
+relationship: RO:0002377 OARCS:0000133 ! cheliceral artery
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+
+[Term]
+id: OARCS:0000123
+name: median transganglionic artery
+def: "The transganglionic artery which is part of the anterior aorta system and runs medially between two adjacent neuromeres." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000109 ! transganglionic artery
+relationship: RO:0002377 OARCS:0000108 ! connecting artery
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000289 ! median transganglionic artery system
+
+[Term]
+id: OARCS:0000124
+name: lateral transganglionic artery
+def: "The transganglionic artery which emanates from a leg artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000109 ! transganglionic artery
+relationship: RO:0002377 OARCS:0000227 ! leg artery
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000125
+name: epidermal artery
+def: "The artery which is part of the anterior lateral artery system and supplies the epidermis of the integument." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "tegumentary artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000011 ! anterior lateral artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+relationship: BFO:0000050 OARCS:0000056 ! epidermal artery system
+
+[Term]
+id: OARCS:0000126
+name: gonadal artery
+def: "The artery which supplies the gonads." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "genital artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000127
+name: esophageal-mandibular artery
+def: "The artery which is part of the ventral vessel system and bifurcates into an esophageal artery and a mandibular artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+
+[Term]
+id: OARCS:0000128
+name: maxillar artery
+def: "The artery which is part of the ventral vessel system and supplies a first or second maxilla." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "maxillary artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97057]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+
+[Term]
+id: OARCS:0000129
+name: scaphognathite artery
+def: "The artery which is part of the ventral vessel system and supplies a scaphognathite." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+
+[Term]
+id: OARCS:0000130
+name: uropodal artery
+def: "The artery which is part of the posterior aorta system and supplies an uropod." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000131
+name: telsonal artery
+def: "The artery which is part of the posterior aorta system and supplies the telson." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000132
+name: pleonal artery
+def: "The artery which emanates posterolaterally from the posterior aorta." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "lateral abdominal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000133
+name: cheliceral artery
+def: "The artery which supplies a chelicera." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+
+[Term]
+id: OARCS:0000134
+name: pedipalpal artery
+def: "The artery which supplies a pedipalp." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000257 ! pedipalpal artery system
+
+[Term]
+id: OARCS:0000135
+name: fourth leg artery
+def: "The leg artery which supplies a fourth leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000227 ! leg artery
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000261 ! fourth leg artery system
+
+[Term]
+id: OARCS:0000136
+name: third leg artery
+def: "The leg artery which supplies a third leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000227 ! leg artery
+relationship: BFO:0000050 OARCS:0000260 ! third leg artery system
+
+[Term]
+id: OARCS:0000137
+name: second leg artery
+def: "The leg artery which supplies a second leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000227 ! leg artery
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000259 ! second leg artery system
+
+[Term]
+id: OARCS:0000138
+name: first leg artery
+def: "The leg artery which supplies a first leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000227 ! leg artery
+relationship: BFO:0000050 OARCS:0000258 ! first leg artery system
+
+[Term]
+id: OARCS:0000139
+name: third cardiac artery
+def: "The cardiac artery which is next in a posterior direction to the second cardiac artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000197 ! cardiac artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000098 ! third cardiac artery system
+
+[Term]
+id: OARCS:0000140
+name: maxilliped artery
+def: "The artery which supplies a maxilliped." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "maxillipedal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97057, http://oarcs-api.speciesfilegroup.org/api/ref/97806]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000141
+name: mandibular artery
+def: "Is the artery which supplies a mandible." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000142
+name: second ostium
+def: "The ostium which is next in a posterior direction to the first ostium." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000228 ! ostium
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000143
+name: first ostium
+def: "The ostium which is the anteriormost one." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000228 ! ostium
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000144
+name: second cardiac artery
+def: "The cardiac artery which is next in a posterior direction to the first cardiac artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000197 ! cardiac artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000097 ! second cardiac artery system
+
+[Term]
+id: OARCS:0000145
+name: first cardiac artery
+def: "The cardiac artery which is the anteriormost one." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000197 ! cardiac artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000025 ! first cardiac artery system
+
+[Term]
+id: OARCS:0000146
+name: antennal hemocoel
+def: "The hemocoel which is part of an antenna." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "antennal haemocoel" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000104 ! hemocoel
+
+[Term]
+id: OARCS:0000147
+name: accessory optic artery
+def: "The optic artery which is part of the anterior lateral artery system." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "oculomotor artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000193 ! optic artery
+relationship: RO:0002377 OARCS:0000011 ! anterior lateral artery
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+relationship: BFO:0000050 OARCS:0000054 ! accessory optic artery system
+
+[Term]
+id: OARCS:0000148
+name: supraneural artery
+def: "The ventral vessel which lies dorsally to the ventral nerve cord." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000005 ! ventral vessel
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+relationship: BFO:0000050 OARCS:0000262 ! supraneural artery system
+
+[Term]
+id: OARCS:0000149
+name: epicardial cell
+def: "The cell which is part of the epicard." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000214 ! cell
+relationship: BFO:0000050 OARCS:0000187 ! epicard
+
+[Term]
+id: OARCS:0000150
+name: hemolymph space
+def: "The anatomical space which is filled with hemolymph." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "haemolymph space" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000224 ! anatomical space
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000151
+name: alary muscle
+def: "The ligament which is muscular, spans between the heart or the pericardial septum and the lateral body wall." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000159 ! ligament
+
+[Term]
+id: OARCS:0000152
+name: pereiopodal artery
+def: "The leg artery which supplies a pereiopod." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000227 ! leg artery
+relationship: RO:0002377 OARCS:0000221 ! ventral vessel system
+relationship: BFO:0000050 OARCS:0000031 ! pereiopodal artery system
+
+[Term]
+id: OARCS:0000153
+name: cercus heart
+def: "The accessory pulsatile organ which maintains hemolymph supply to the cerci." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+
+[Term]
+id: OARCS:0000154
+name: hemolymph lacunar system
+def: "The anatomical system which represents the sum of all sinuses and lacunae." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "haemolymph lacunar system" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000216 ! anatomical system
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000155
+name: spherulocyte
+def: "The granulocyte which contains regularly shaped spherical grana." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000160 ! granulocyte
+relationship: BFO:0000050 OARCS:0000010 ! hemolymph
+
+[Term]
+id: OARCS:0000156
+name: posterior aorta
+def: "The aorta which emanates posteriorly from the heart." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "arteria dorsalis pleica" [http://oarcs-api.speciesfilegroup.org/api/ref/97807]
+synonym: "dorsal abdominal aorta" [http://oarcs-api.speciesfilegroup.org/api/ref/97624]
+synonym: "dorsal abdominal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97623, http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000191 ! aorta
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: RO:0002377 OARCS:0000008 ! tubular heart
+relationship: BFO:0000050 OARCS:0000002 ! dorsal vessel
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000157
+name: ovipositor heart
+def: "The accessory pulsatile organ which maintains hemolymph supply to the ovipositor." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+
+[Term]
+id: OARCS:0000158
+name: wing heart
+def: "The accessory pulsatile organ which maintains hemolymph supply to the wing." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+
+[Term]
+id: OARCS:0000159
+name: ligament
+def: "The portion of tissue which suspends the heart elastically." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "ala cordis" [http://oarcs-api.speciesfilegroup.org/api/ref/97853]
+synonym: "cardiac ligament" [http://oarcs-api.speciesfilegroup.org/api/ref/97057]
+is_a: OARCS:0000106 ! portion of tissue
+
+[Term]
+id: OARCS:0000160
+name: granulocyte
+def: "The hemocyte which contains granules." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000016 ! hemocyte
+relationship: BFO:0000050 OARCS:0000010 ! hemolymph
+
+[Term]
+id: OARCS:0000161
+name: prohemocyte
+def: "The cell which is part of the hemolymph that differentiates into different types of hemocytes." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+synonym: "prohaemocyte" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000214 ! cell
+relationship: BFO:0000050 OARCS:0000010 ! hemolymph
+
+[Term]
+id: OARCS:0000162
+name: hemolymph circulatory system
+def: "The anatomical system consisting of a hemolymph vascular system, a hemolymph lacunar system and hemolymph." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "circulatory system" [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000216 ! anatomical system
+
+[Term]
+id: OARCS:0000163
+name: sternal artery
+def: "The artery which is part of the ventral vessel anterior to the junction with the descending artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000017 ! descending artery
+relationship: BFO:0000050 OARCS:0000005 ! ventral vessel
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+
+[Term]
+id: OARCS:0000164
+name: perivisceral sinus
+def: "The sinus which surrounds the gut." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000183 ! sinus
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000165
+name: posterior lateral artery
+def: "The artery which is part of the posterior aorta system and emanates laterally from the posterior aorta or the pleonal arteries." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "lateral abdominal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97623, http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000156 ! posterior aorta
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000080 ! posterior aorta system
+
+[Term]
+id: OARCS:0000166
+name: hepatic artery
+def: "The artery which supplies the midgut gland." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "hepatopancreatic artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97808]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000167
+name: pericardial septum
+def: "The portion of tissue which borderes the pericardal sinus ventrally." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "dorsal diaphragm" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+synonym: "pericaridal diaphragm" [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000032 ! septum
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000168
+name: incurrent ostium
+def: "The ostium which has its valve(s) pointing towards the lumen of a pusatile organ." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000228 ! ostium
+
+[Term]
+id: OARCS:0000169
+name: collateral artery
+def: "The artery which runs parallel to the heart on either side, connects the cardiac arteries and among others gives rise to the caudal artery and the prosomal marginal artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000172 ! prosomal marginal artery
+relationship: BFO:0000050 OARCS:0000077 ! collateral artery system
+
+[Term]
+id: OARCS:0000170
+name: accessory pulsatile organ
+def: "The pulsatile organ which is accessory to the heart." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "auxiliary heart" [http://oarcs-api.speciesfilegroup.org/api/ref/97639]
+is_a: OARCS:0000179 ! pulsatile organ
+
+[Term]
+id: OARCS:0000171
+name: opisthosomal marginal artery
+def: "The artery which is part of the opisthosomal marginal artery system, emanates from the prosomal marginal artery and runs along the outer edge of the opisthosoma." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000172 ! prosomal marginal artery
+relationship: BFO:0000050 OARCS:0000070 ! opisthosomal marginal artery system
+
+[Term]
+id: OARCS:0000172
+name: prosomal marginal artery
+def: "The artery which is part of the prosomal marginal artery system, emanates from the collateral artery and runs along the outer edge of the prosomal shield." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000169 ! collateral artery
+relationship: BFO:0000050 OARCS:0000067 ! prosomal marginal artery system
+
+[Term]
+id: OARCS:0000173
+name: caudal artery
+def: "The artery which runs longitudinally and supplies the posterior region of the body." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000169 ! collateral artery
+relationship: BFO:0000050 OARCS:0000005 ! ventral vessel
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+relationship: BFO:0000050 OARCS:0000077 ! collateral artery system
+
+[Term]
+id: OARCS:0000174
+name: inferior lateral artery
+def: "The cardiac artery which emanates ventrally to the origin of an anterior lateral artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000197 ! cardiac artery
+relationship: RO:0002377 OARCS:0000007 ! globular heart
+
+[Term]
+id: OARCS:0000175
+name: leg heart
+def: "The accessory pulsatile organ which maintains hemolymph supply to the leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000176
+name: hemolymph plasma
+def: "The portion of organism substance which is part of the hemolymph, non-cellular and surrounds the hemolymph cells." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+synonym: "haemolymph plasma" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000222 ! portion of organism substance
+relationship: BFO:0000050 OARCS:0000010 ! hemolymph
+
+[Term]
+id: OARCS:0000177
+name: hemolymph vascular system
+def: "The anatomical system which is part of the circulatory system and consists of the arterial system and the heart." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "haemolymph vascular system" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "vascular system" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000216 ! anatomical system
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000178
+name: aortic bulb
+def: "The artery which is part of the posterior aorta and is its bulbous anterior portion." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "bulbus" [http://oarcs-api.speciesfilegroup.org/api/ref/97808]
+synonym: "bulbus arteriosus" [http://oarcs-api.speciesfilegroup.org/api/ref/97066, http://oarcs-api.speciesfilegroup.org/api/ref/97807, http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000156 ! posterior aorta
+
+[Term]
+id: OARCS:0000179
+name: pulsatile organ
+def: "The cavitated compound organ which is surrounded by a wall containing muscular or collageneous elements." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000238 ! cavitated compound organ
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+
+[Term]
+id: OARCS:0000180
+name: ventral sinus
+def: "The sinus which surrounds the ventral nerve cord and is bordered by the ventral diaphragm." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000183 ! sinus
+
+[Term]
+id: OARCS:0000181
+name: podo-pericardial sinus
+def: "The sinus which connects the hemocoel of the legs with the pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000183 ! sinus
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000182
+name: subneural artery
+def: "The ventral vessel which lies ventrally to the ventral nerve chord." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000005 ! ventral vessel
+
+[Term]
+id: OARCS:0000183
+name: sinus
+def: "The hemocoel which is partly or totally bordered by a septum." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000104 ! hemocoel
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000184
+name: posterior ventral vessel
+def: "The artery which is part of the ventral vessel posterior to the junction with the descending artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000017 ! descending artery
+relationship: BFO:0000050 OARCS:0000005 ! ventral vessel
+relationship: BFO:0000050 OARCS:0000221 ! ventral vessel system
+
+[Term]
+id: OARCS:0000185
+name: ostial valve
+def: "The valve which is part of the ostium and prevents hemolymph from leaving the heart lumen." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000292 ! valve
+relationship: BFO:0000050 OARCS:0000228 ! ostium
+relationship: BFO:0000050 OARCS:0000018 ! myocard
+
+[Term]
+id: OARCS:0000186
+name: pulmo-pericardial sinus
+def: "The sinus which connects the hemocoel of the lungs with the pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000183 ! sinus
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000187
+name: epicard
+def: "The portion of tissue which is part of the heart and lines the myocard externally." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+synonym: "epicardium" [http://oarcs-api.speciesfilegroup.org/api/ref/97621]
+is_a: OARCS:0000106 ! portion of tissue
+relationship: BFO:0000050 OARCS:0000253 ! heart
+
+[Term]
+id: OARCS:0000188
+name: hemocyte type 2
+def: "The hemocyte which is type 2." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "haemocyte type 2" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000016 ! hemocyte
+relationship: BFO:0000050 OARCS:0000010 ! hemolymph
+
+[Term]
+id: OARCS:0000189
+name: plasmatocyte
+def: "The hemocyte which contains no or just a few grana and is characterized by intense spreading. Its plasma is greyish in phase contrast." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000016 ! hemocyte
+
+[Term]
+id: OARCS:0000190
+name: efferent branchiostegal sinus
+def: "The sinus which lies underneath the carapace." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000183 ! sinus
+
+[Term]
+id: OARCS:0000191
+name: aorta
+def: "The artery which is part of the dorsal vessel, forms a longitudinal extension of the heart and is separated from the heart by an aortic valve." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000002 ! dorsal vessel
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000192
+name: pericardial sinus
+def: "The sinus which surrounds the heart and is bordered by the pericardial septum." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "auricle" [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000183 ! sinus
+
+[Term]
+id: OARCS:0000193
+name: optic artery
+def: "The artery which supplies the eye." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "ophthalmic artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000030 ! optic artery system
+
+[Term]
+id: OARCS:0000194
+name: lacuna
+def: "The hemocoel which is bordered by other organs and not by distinct septa." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000104 ! hemocoel
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000195
+name: myoarterial formation
+def: "The accessory pulsatile organ which is part of the anterior aorta and into which several muscles are internalized." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "accessory heart" [http://oarcs-api.speciesfilegroup.org/api/ref/97816, http://oarcs-api.speciesfilegroup.org/api/ref/97817, http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+synonym: "auxiliary heart" [http://oarcs-api.speciesfilegroup.org/api/ref/97812]
+synonym: "cor frontale" [http://oarcs-api.speciesfilegroup.org/api/ref/97624, http://oarcs-api.speciesfilegroup.org/api/ref/97807]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+relationship: BFO:0000050 OARCS:0000004 ! anterior aorta
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000196
+name: lateral ligament
+def: "The ligament which connects the lateral part of the heart with the dorso-lateral integument." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "exocardial ligament" [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000159 ! ligament
+
+[Term]
+id: OARCS:0000197
+name: cardiac artery
+def: "The artery which is part of a cardiac artery system and emanates laterally or ventrally from the heart." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+synonym: "lateral cardiac artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97809]
+is_a: OARCS:0000006 ! artery
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+relationship: BFO:0000050 OARCS:0000162 ! hemolymph circulatory system
+relationship: BFO:0000050 OARCS:0000096 ! cardiac artery system
+
+[Term]
+id: OARCS:0000198
+name: gastral lacuna
+def: "The lacuna which surrounds the stomach." [http://oarcs-api.speciesfilegroup.org/api/ref/97049]
+is_a: OARCS:0000194 ! lacuna
+relationship: BFO:0000050 OARCS:0000154 ! hemolymph lacunar system
+
+[Term]
+id: OARCS:0000199
+name: hemocyte type 1
+def: "The hemocyte which is type 1." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "haemocyte type 1" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000016 ! hemocyte
+
+[Term]
+id: OARCS:0000200
+name: ventral ligament
+def: "The ligament which connects the ventral part of the heart with the ventral integument, the pericardial septum or other." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "hypocardial ligament" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000159 ! ligament
+
+[Term]
+id: OARCS:0000201
+name: arteriole
+def: "The artery which is part of an artery system and has the smallest diameter." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000202
+name: excurrent ostium
+def: "The ostium which has its valve(s) pointing away from the lumen of a pusatile organ." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000228 ! ostium
+
+[Term]
+id: OARCS:0000203
+name: dorsal ligament
+def: "The ligament which connects the dorsal part of the heart with the dorsal integument." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "epicardial ligament" [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000159 ! ligament
+
+[Term]
+id: OARCS:0000204
+name: dorsal pleonal sinus
+def: "The sinus which lies dorsally in the pleon." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000183 ! sinus
+
+[Term]
+id: OARCS:0000205
+name: antenna heart
+def: "The accessory pulsatile organ which supplies antennae." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+synonym: "antennal heart" [http://oarcs-api.speciesfilegroup.org/api/ref/97643]
+is_a: OARCS:0000170 ! accessory pulsatile organ
+
+[Term]
+id: OARCS:0000206
+name: arterial valve
+def: "The valve which is part of an artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000292 ! valve
+relationship: BFO:0000050 OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000207
+name: hermaphroditic organism
+def: "Multi-cellular organism that can produce both male and female gametes." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+synonym: "dioecious organism" [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000029
+is_a: OARCS:0000215 ! multi-cellular organism
+
+[Term]
+id: OARCS:0000208
+name: female organism
+def: "Gonochoristic organism that can produce female gametes." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000028
+is_a: OARCS:0000107 ! gonochoristic organism
+
+[Term]
+id: OARCS:0000209
+name: male organism
+def: "Gonochoristic organism that can produce male gametes." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000027
+is_a: OARCS:0000107 ! gonochoristic organism
+
+[Term]
+id: OARCS:0000210
+name: compound organ
+def: "Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000024
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000211
+name: simple organ
+def: "Multi-tissue structure that is not part of a compound organ." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000021
+is_a: OARCS:0000249 ! multi-tissue structure
+
+[Term]
+id: OARCS:0000212
+name: compound organ component
+def: "Multi-tissue structure that is part of a compound organ." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000019
+is_a: OARCS:0000249 ! multi-tissue structure
+relationship: BFO:0000050 OARCS:0000210 ! compound organ
+
+[Term]
+id: OARCS:0000213
+name: cell component
+def: "Anatomical structure that is a direct part of the cell." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000014
+is_a: OARCS:0000225 ! anatomical structure
+relationship: BFO:0000050 OARCS:0000214 ! cell
+
+[Term]
+id: OARCS:0000214
+name: cell
+def: "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000013
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000215
+name: multi-cellular organism
+def: "Anatomical structure that is an individual member of a species and consists of more than one cell." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000012
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000216
+name: anatomical system
+def: "Anatomical group that is has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000011
+is_a: OARCS:0000250 ! anatomical group
+
+[Term]
+id: OARCS:0000217
+name: anatomical surface
+def: "Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000010
+is_a: OARCS:0000220 ! immaterial anatomical entity
+
+[Term]
+id: OARCS:0000218
+name: anatomical point
+def: "Non-material anatomical entity of zero dimension, which forms a boundary of an anatomical line or surface." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000009
+is_a: OARCS:0000220 ! immaterial anatomical entity
+
+[Term]
+id: OARCS:0000219
+name: anatomical line
+def: "Non-material anatomical entity of one dimension, which forms a boundary of an anatomical surface or is a modulation of an anatomical surface." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000008
+is_a: OARCS:0000220 ! immaterial anatomical entity
+
+[Term]
+id: OARCS:0000220
+name: immaterial anatomical entity
+def: "Anatomical entity that has no mass." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000007
+is_a: OARCS:0000226 ! anatomical entity
+
+[Term]
+id: OARCS:0000221
+name: ventral vessel system
+def: "The artery system which consists of the ventral vessel and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97066]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000222
+name: portion of organism substance
+def: "Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000004
+is_a: OARCS:0000223 ! material anatomical entity
+
+[Term]
+id: OARCS:0000223
+name: material anatomical entity
+def: "Anatomical entity that has mass." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000006
+is_a: OARCS:0000226 ! anatomical entity
+
+[Term]
+id: OARCS:0000224
+name: anatomical space
+def: "Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000005
+is_a: OARCS:0000220 ! immaterial anatomical entity
+
+[Term]
+id: OARCS:0000225
+name: anatomical structure
+def: "Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000003
+is_a: OARCS:0000223 ! material anatomical entity
+
+[Term]
+id: OARCS:0000226
+name: anatomical entity
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000000
+
+[Term]
+id: OARCS:0000227
+name: leg artery
+def: "The artery which supplies a leg." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+synonym: "pedal artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97635, http://oarcs-api.speciesfilegroup.org/api/ref/97852]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000228
+name: ostium
+def: "The anatomical structure which is part of a pulsatile organ, and connects the lumen of the pulsatile organ with the surrounding hemocoel." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000225 ! anatomical structure
+relationship: BFO:0000050 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000018 ! myocard
+relationship: BFO:0000050 OARCS:0000179 ! pulsatile organ
+
+[Term]
+id: OARCS:0000229
+name: capillary
+def: "The anastomosis which is part of an arterial network, and connects afferent and efferent arteries." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000003 ! anastomosis
+
+[Term]
+id: OARCS:0000230
+name: branchio-pericardial sinus
+def: "The sinus which connects the hemocoel of the gills with the pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+synonym: "efferent gill sinus" [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000183 ! sinus
+relationship: RO:0002377 OARCS:0000303 ! efferent gill lacuna
+
+[Term]
+id: OARCS:0000231
+name: afferent gill sinus
+def: "The sinus which connects the hemocoel of the body with that of a gill." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000183 ! sinus
+
+[Term]
+id: OARCS:0000232
+name: asexual organism
+def: "Multi-cellular organism that does not produce gametes." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000030
+is_a: OARCS:0000215 ! multi-cellular organism
+
+[Term]
+id: OARCS:0000233
+name: organism subdivision
+def: "Anatomical structure which is a primary subdivision of whole organism. The mereological sum of these is the whole organism." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000032
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000234
+name: acellular anatomical structure
+def: "Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000040
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000235
+name: anatomical cluster
+def: "Anatomical group that has its parts adjacent to one another." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000041
+is_a: OARCS:0000250 ! anatomical group
+
+[Term]
+id: OARCS:0000236
+name: extraembryonic structure
+def: "Anatomical structure that is contiguous with the embryo and is comprised of portions of tissue or cells that will not contribute to the embryo." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000042
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000237
+name: unilaminar epithelium
+def: "Epithelium that consists of a single layer of epithelial cells." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000073
+is_a: OARCS:0000244 ! epithelium
+
+[Term]
+id: OARCS:0000238
+name: cavitated compound organ
+def: "Compound organ that contains one or more macroscopic anatomical spaces." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000072
+is_a: OARCS:0000210 ! compound organ
+
+[Term]
+id: OARCS:0000239
+name: atypical epithelium
+def: "Epithelium that consists of epithelial cells not arranged in one ore more layers." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000071
+is_a: OARCS:0000244 ! epithelium
+
+[Term]
+id: OARCS:0000240
+name: simple squamous epithelium
+def: "Unilaminar epithelium that consists of a single layer of squamous cells." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000070
+is_a: OARCS:0000237 ! unilaminar epithelium
+
+[Term]
+id: OARCS:0000241
+name: multilaminar epithelium
+def: "Epithelium that consists of more than one layer of epithelial cells." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000069
+is_a: OARCS:0000244 ! epithelium
+
+[Term]
+id: OARCS:0000242
+name: simple columnar epithelium
+def: "Unilaminar epithelium that consists of a single layer of columnar cells." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000068
+is_a: OARCS:0000237 ! unilaminar epithelium
+
+[Term]
+id: OARCS:0000243
+name: simple cuboidal epithelium
+def: "Unilaminar epithelium that consists of a single layer of cuboidal cells." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000067
+is_a: OARCS:0000237 ! unilaminar epithelium
+
+[Term]
+id: OARCS:0000244
+name: epithelium
+def: "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000066
+is_a: OARCS:0000106 ! portion of tissue
+
+[Term]
+id: OARCS:0000245
+name: basal lamina
+def: "Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000065
+is_a: OARCS:0000234 ! acellular anatomical structure
+
+[Term]
+id: OARCS:0000246
+name: single cell organism
+def: "Cell that is an individual member of a species." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000064
+is_a: OARCS:0000214 ! cell
+
+[Term]
+id: OARCS:0000247
+name: portion of cell substance
+def: "Portion of organism substance located within a cell." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000063
+is_a: OARCS:0000222 ! portion of organism substance
+
+[Term]
+id: OARCS:0000248
+name: cell space
+def: "Anatomical space that is part of a cell." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000062
+is_a: OARCS:0000224 ! anatomical space
+
+[Term]
+id: OARCS:0000249
+name: multi-tissue structure
+def: "Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000055
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000250
+name: anatomical group
+def: "Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000054
+
+[Term]
+id: OARCS:0000251
+name: protogynous hermaphroditic organism
+def: "Sequential hermaphroditic organism that produces\ngametes first of the female sex, and then later of the\nmale sex." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000050
+is_a: OARCS:0000255 ! sequential hermaphroditic organism
+
+[Term]
+id: OARCS:0000252
+name: protandrous hermaphroditic organism
+def: "Sequential hermaphroditic organism that produces\ngametes first of the male sex, and then later of the\nfemale sex." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000049
+is_a: OARCS:0000255 ! sequential hermaphroditic organism
+
+[Term]
+id: OARCS:0000253
+name: heart
+def: "The pulsatile organ which is part of the dorsal vessel and consists of myocard, epicard and heart lumen." [http://oarcs-api.speciesfilegroup.org/api/ref/97067]
+is_a: OARCS:0000000 ! vessel
+is_a: OARCS:0000179 ! pulsatile organ
+relationship: BFO:0000050 OARCS:0000002 ! dorsal vessel
+
+[Term]
+id: OARCS:0000254
+name: synchronous hermaphroditic organism
+def: "Hermaphroditic organism that produces both male and female gametes at the same time." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+synonym: "serially hermaphroditic organism" [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000046
+is_a: OARCS:0000207 ! hermaphroditic organism
+
+[Term]
+id: OARCS:0000255
+name: sequential hermaphroditic organism
+def: "Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex." [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+synonym: "consecutive hermaphroditic organism" [http://oarcs-api.speciesfilegroup.org/api/ref/96999]
+xref: CARO:0000045
+is_a: OARCS:0000207 ! hermaphroditic organism
+
+[Term]
+id: OARCS:0000256
+name: upper lip artery system
+def: "The artery system which consists of the upper lip artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000257
+name: pedipalpal artery system
+def: "The artery system which consists of the pedipalpal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000258
+name: first leg artery system
+def: "The artery system which consists of the first leg artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000259
+name: second leg artery system
+def: "The artery system which consists of the second leg artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000260
+name: third leg artery system
+def: "The artery system which consists of the third leg artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000261
+name: fourth leg artery system
+def: "The artery system which consists of the fourth leg artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000262
+name: supraneural artery system
+def: "The artery system which consists of the supraneural artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000263
+name: branching artery system
+def: "DELETE CLASS: The artery system which consists of the branching artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+
+[Term]
+id: OARCS:0000264
+name: first lateral transganglionic artery
+def: "The lateral transganglionic artery which is the anteriormost one." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000124 ! lateral transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000265
+name: second lateral transganglionic artery
+def: "The lateral transganglionic artery which is next in a posterior direction to the first lateral transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000124 ! lateral transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000266
+name: third lateral transganglionic artery
+def: "The lateral transganglionic artery which is next in a posterior direction to the second lateral transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000124 ! lateral transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000267
+name: fourth lateral transganglionic artery
+def: "The lateral transganglionic artery which is next in a posterior direction to the third lateral transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000124 ! lateral transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000268
+name: fifth lateral transganglionic artery
+def: "The lateral transganglionic artery which is next in a posterior direction to the fourth lateral transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000124 ! lateral transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000269
+name: sixth lateral transganglionic artery
+def: "The lateral transganglionic artery which is next in a posterior direction to the fifth lateral transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+is_a: OARCS:0000124 ! lateral transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000270
+name: dorsal prosomal artery system
+def: "The artery system which consists of the dorsal prosomal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "dorsal branching artery system" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000295 ! arterial system
+
+[Term]
+id: OARCS:0000271
+name: first median transganglionic artery system
+def: "The artery system which consists of the first median transganglionic artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000289 ! median transganglionic artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000272
+name: third dorsal prosomal artery
+def: "The dorsal prosomal artery which is next in a posterior direction to the second dorsal prosomal artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "third dorsal branching artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000121 ! dorsal prosomal artery
+relationship: BFO:0000050 OARCS:0000275 ! third dorsal prosomal artery system
+
+[Term]
+id: OARCS:0000273
+name: second dorsal prosomal artery
+def: "The dorsal prosomal artery which is next in a posterior direction to the first dorsal prosomal artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "second dorsal branching artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000121 ! dorsal prosomal artery
+relationship: BFO:0000050 OARCS:0000276 ! second dorsal prosomal artery system
+
+[Term]
+id: OARCS:0000274
+name: first dorsal prosomal artery
+def: "The dorsal prosomal artery which is the anteriormost one." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "first dorsal branching artery" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000121 ! dorsal prosomal artery
+relationship: BFO:0000050 OARCS:0000277 ! first dorsal prosomal artery system
+
+[Term]
+id: OARCS:0000275
+name: third dorsal prosomal artery system
+def: "The artery system which consists of the third prosomal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "third dorsal branching artery system" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000270 ! dorsal prosomal artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000276
+name: second dorsal prosomal artery system
+def: "The artery system which consists of the second prosomal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "second dorsal branching artery system" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000270 ! dorsal prosomal artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000277
+name: first dorsal prosomal artery system
+def: "The artery system which consists of the first prosomal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97916]
+synonym: "first dorsal branching artery system" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000270 ! dorsal prosomal artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000278
+name: second ventral branching artery
+def: "The ventral branching artery which is next in a posterior direction to the first ventral branching artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000122 ! ventral branching artery
+relationship: RO:0002377 OARCS:0000133 ! cheliceral artery
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+
+[Term]
+id: OARCS:0000279
+name: first ventral branching artery
+def: "The ventral branching artery which is the anteriormost one." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000122 ! ventral branching artery
+relationship: RO:0002377 OARCS:0000133 ! cheliceral artery
+relationship: BFO:0000050 OARCS:0000078 ! cheliceral artery system
+
+[Term]
+id: OARCS:0000280
+name: ninth median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the eighth median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000281
+name: eighth median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the seventh median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000282
+name: seventh median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the sixth median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000283
+name: sixth median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the fifth median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000284
+name: fifth median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the fourth median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000285
+name: fourth median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the third median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000286
+name: third median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the second median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000287
+name: second median transganglionic artery
+def: "The median transganglionic artery which is next in a posterior direction to the first median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000288
+name: first median transganglionic artery
+def: "The median transganglionic artery which is the anteriormost one." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000123 ! median transganglionic artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+relationship: BFO:0000050 OARCS:0000271 ! first median transganglionic artery system
+
+[Term]
+id: OARCS:0000289
+name: median transganglionic artery system
+def: "The artery system which consists of a median transganglionic artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+
+[Term]
+id: OARCS:0000290
+name: epigastric artery
+def: "The artery which supplies the dorsal stomach musculature." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000006 ! artery
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000291
+name: peribuccal artery system
+def: "The artery system which consists of the peribuccal artery and all its branches." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+synonym: "epigastric artery system" [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000095 ! artery system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000292
+name: valve
+def: "The anatomical structure which forms an outlet structure." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000225 ! anatomical structure
+
+[Term]
+id: OARCS:0000293
+name: rete mirabile
+def: "The anatomical system which consists of anastomosing arteries and capillaries between afferent and efferent artery systems." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000216 ! anatomical system
+relationship: BFO:0000050 OARCS:0000102 ! anterior aorta system
+
+[Term]
+id: OARCS:0000294
+name: arterial loop
+def: "The capillary which is arranged in a hairpin-like fashion." [http://oarcs-api.speciesfilegroup.org/api/ref/97054]
+is_a: OARCS:0000229 ! capillary
+relationship: BFO:0000050 OARCS:0000293 ! rete mirabile
+
+[Term]
+id: OARCS:0000295
+name: arterial system
+def: "The anatomical system which is part of the hemolymph vascular system and represents the sum of all arteries." [http://oarcs-api.speciesfilegroup.org/api/ref/97052]
+is_a: OARCS:0000216 ! anatomical system
+relationship: RO:0002377 OARCS:0000253 ! heart
+relationship: BFO:0000050 OARCS:0000177 ! hemolymph vascular system
+
+[Term]
+id: OARCS:0000296
+name: tenth median transganglinic artery
+def: "The median transganglionic artery which is next in a posterior direction to the ninth median transganglionic artery." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000123 ! median transganglionic artery
+
+[Term]
+id: OARCS:0000297
+name: vascular wall
+def: "The portion of tissue which is part of a vessel and surrounds the vascular lumen." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000106 ! portion of tissue
+relationship: BFO:0000050 OARCS:0000000 ! vessel
+
+[Term]
+id: OARCS:0000298
+name: vascular lumen
+def: "The hemolymph space which is part of a vessel and is surrounded by the vascular wall." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000150 ! hemolymph space
+relationship: BFO:0000050 OARCS:0000000 ! vessel
+
+[Term]
+id: OARCS:0000299
+name: trough-like lacuna
+def: "The lacuna which is situated under the midgut gland and bears a trough-like shape." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+
+[Term]
+id: OARCS:0000300
+name: perineural lacuna
+def: "The lacuna which surrounds the central nervous system." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+
+[Term]
+id: OARCS:0000301
+name: ventrolateral lacuna
+def: "The lacuna which is situated ventrolaterally." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+
+[Term]
+id: OARCS:0000302
+name: afferent gill lacuna
+def: "The lacuna inside the gills which emanates from the lacunae inside trunk or legs." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+relationship: RO:0002377 OARCS:0000301 ! ventrolateral lacuna
+relationship: OArCS:gives_rise OARCS:0000303 ! efferent gill lacuna
+
+[Term]
+id: OARCS:0000303
+name: efferent gill lacuna
+def: "The lacuna inside the gills which gives rise to the branchio-pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000194 ! lacuna
+relationship: RO:0002377 OARCS:0000302 ! afferent gill lacuna
+relationship: OArCS:gives_rise OARCS:0000230 ! branchio-pericardial sinus
+
+[Term]
+id: OARCS:0000304
+name: branchiostegal-pericardial lacuna
+def: "The branchiostegal lacuna which opens into the pericardial sinus." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000075 ! branchiostegal lacuna
+
+[Term]
+id: OARCS:0000305
+name: branchiostegal artery
+def: "The artery which supplies the branchiostegite." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000006 ! artery
+
+[Term]
+id: OARCS:0000306
+name: rostral arch
+def: "The anastomosis which connects the left and right anterior lateral artery system in the rostral region." [http://oarcs-api.speciesfilegroup.org/api/ref/97055]
+is_a: OARCS:0000003 ! anastomosis
+relationship: BFO:0000050 OARCS:0000103 ! anterior lateral artery system
+
+[Typedef]
+id: RO:0002377
+name: emanates_from
+is_reflexive: true
+is_anti_symmetric: true
+
+[Typedef]
+id: OArCS:gives_rise
+name: gives_rise_to
+is_reflexive: true
+is_anti_symmetric: true
+
+[Typedef]
+id: CARO:has_quality
+name: has_quality
+
+[Typedef]
+id: CARO:overlaps
+name: overlaps
+
+[Typedef]
+id: BFO:0000050
+name: part_of
+is_transitive: true
+is_reflexive: true
+is_anti_symmetric: true
+
